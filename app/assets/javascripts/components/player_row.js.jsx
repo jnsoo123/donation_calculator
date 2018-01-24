@@ -14,7 +14,7 @@ var PlayerRow = createReactClass({
         <a href='#' className='btn btn-success' data-toggle='modal' data-target={`#playerId--${this.props.player.id}`}>
           <i className='fa fa-plus'></i> Add points
         </a>
-        <a href='#' className='btn btn-danger'>
+        <a href={`players/${this.props.player.id}`} data-confirm={`Are you sure you want to remove ${this.props.player.in_game_name}?`} data-method='delete' className='btn btn-danger'>
           <i className='fa fa-plus'></i> Remove player
         </a>
       </td>

@@ -1,0 +1,10 @@
+@import 'bootswatch/lux/variables';
+@import 'bootstrap';
+@import 'bootswatch/lux/bootswatch';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+@import 'components/*';
+
+.container.container-main {
+  margin-top: 150px;
+}

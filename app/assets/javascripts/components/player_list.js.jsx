@@ -3,7 +3,7 @@ var PlayerList = createReactClass({
     var authenticityToken = this.props.authenticity_token
 
     return(<div className='players-component'>
-      <h3 className='page-header'>Players</h3>
+      <h1>Players</h1>
       <table className='table table-hover'>
         <thead>
           <tr>

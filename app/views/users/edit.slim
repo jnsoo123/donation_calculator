@@ -1,0 +1,18 @@
+.small-container
+  h1 Edit User Account
+  hr
+  = form_for @user do |f|
+    fieldset
+      .form-group
+        = f.label :username
+        = f.text_field :username, class: 'form-control', autofocus: true
+    fieldset
+      .form-group
+        = f.label :password
+        = f.password_field :password, class: 'form-control'
+    fieldset
+      .form-group
+        = f.label :password_confirmation
+        = f.password_field :password_confirmation, class: 'form-control'
+    .actions.form-group
+      = f.submit :save, class: 'btn btn-primary btn-block'

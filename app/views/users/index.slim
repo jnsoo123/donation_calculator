@@ -1,0 +1,17 @@
+h1 Users
+table.table.table-hover
+  thead
+    tr
+      th ID
+      th Username
+      th Created On
+      th
+  tbody
+    - @users.each do |user|
+      tr
+        td.table-info__text= user.id
+        td.table-info__text= user.username
+        td.table-info__text= user.created_at.strftime('%B %d, %Y -- %l:%m %p')
+        td
+          = link_to 'Edit', edit_user_path(user), class: 'btn btn-sm btn-info'
+          = link_to 'Delete', nil, class: 'btn btn-sm btn-danger'

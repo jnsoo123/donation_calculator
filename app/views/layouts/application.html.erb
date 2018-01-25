@@ -6,6 +6,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -18,10 +19,21 @@
       <div class="collapse navbar-collapse" id="navbarColor03">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/">Players</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" data-target='#newPlayerModal' data-toggle='modal'>New Player</a>
+          </li>
+          <li class="nav-item">
+            <%= link_to 'New Account', new_user_path, class: 'nav-link' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to 'Users', users_path, class: 'nav-link' %>
+          </li>
+        </ul>
+        <ul class='navbar-nav my-2 my-lg-0'>
+          <li class='nav-item mr-sm-2'>
+            <%= link_to 'Logout', destroy_user_session_path, class: 'nav-link', method: :delete %>
           </li>
         </ul>
       </div>

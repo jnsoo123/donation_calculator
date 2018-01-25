@@ -21,6 +21,7 @@ gem 'bootswatch'
 gem 'font-awesome-sass'
 gem 'react-rails'
 gem 'ransack'
+gem 'devise'
 
 group :development, :test do
   gem 'capybara', '~> 2.13'

@@ -1,0 +1,16 @@
+.small-container
+  h1 Edit Information
+  hr
+  = form_for @player do |f|
+    fieldset
+      .form-group
+        = f.label :name
+        = f.text_field :name, class: 'form-control'
+    fieldset
+      .form-group
+        = f.label :in_game_name
+        = f.text_field :in_game_name, class: 'form-control'
+    br
+    .actions.form-group
+      = f.submit :Save, class: 'btn btn-success btn-block'
+

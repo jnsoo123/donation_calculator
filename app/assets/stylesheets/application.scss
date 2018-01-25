@@ -6,5 +6,10 @@
 @import 'components/*';
 
 .container.container-main {
-  margin-top: 150px;
+  margin-top: 120px;
+}
+
+.small-container {
+  max-width: 500px;
+  margin: 0 auto;
 }

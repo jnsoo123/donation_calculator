@@ -10,7 +10,7 @@
 
   <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-      <a class="navbar-brand" href="#">Player Donation System</a>
+      <a class="navbar-brand" href="/">Player Donation System</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -18,12 +18,16 @@
       <div class="collapse navbar-collapse" id="navbarColor03">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#" data-target='#newPlayerModal' data-toggle='modal'>New Player</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class='container container-main'>
+      <%= render partial: 'shared/alerts' %>
       <%= yield %>
     </div>
     <div class="modal fade" id='newPlayerModal'>
@@ -35,7 +39,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <%= form_for @player do |f| %>
+          <%= form_for Player.new do |f| %>
             <div class="modal-body">
               <div class='form-group'>
                 <%= f.label :in_game_name %>

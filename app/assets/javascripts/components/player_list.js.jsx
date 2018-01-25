@@ -4,9 +4,10 @@ var PlayerList = createReactClass({
 
     return(<div className='players-component'>
       <h3 className='page-header'>Players</h3>
-      <table className='table table-hover table-players'>
+      <table className='table table-hover'>
         <thead>
           <tr>
+            <th>Rank</th>
             <th>IGN</th>
             <th>Weekly Points</th>
             <th>Total Points</th>
@@ -16,7 +17,7 @@ var PlayerList = createReactClass({
         <tbody>
           {this.props.players.map(function(player, i){
             return (
-              <PlayerRow player={player} key={i} />
+              <PlayerRow player={player} key={i} rank={i+1} />
             )
           })} 
         </tbody>

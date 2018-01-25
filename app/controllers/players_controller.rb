@@ -4,9 +4,9 @@ class PlayersController < ApplicationController
   def index
     @players = Player.all
       .includes(:contributions)
-      .sort_by(&:total_points)
+      .sort_by(&:weekly_points)
       .reverse
-      .as_json(methods: :total_points)
+      .as_json(methods: [:total_points, :weekly_points])
   end
 
   def edit

@@ -10,7 +10,7 @@ var PlayerRow = createReactClass({
         </a>
       </td>
       <td className='table-info__text'>
-        --
+        {this.props.player.weekly_points}
       </td>
       <td className='table-info__text'>
         {this.props.player.total_points}  

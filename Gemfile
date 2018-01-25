@@ -20,6 +20,7 @@ gem 'jquery-rails'
 gem 'bootswatch'
 gem 'font-awesome-sass'
 gem 'react-rails'
+gem 'ransack'
 
 group :development, :test do
   gem 'capybara', '~> 2.13'

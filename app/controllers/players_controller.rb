@@ -6,7 +6,7 @@ class PlayersController < ApplicationController
       .includes(:contributions)
       .sort_by(&:weekly_points)
       .reverse
-      .as_json(methods: [:total_points, :weekly_points])
+      .as_json(methods: [:weekly_accumulation, :weekly_points])
   end
 
   def edit

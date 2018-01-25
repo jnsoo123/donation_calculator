@@ -10,10 +10,16 @@ var PlayerRow = createReactClass({
         </a>
       </td>
       <td className='table-info__text'>
-        {this.props.player.weekly_points}
+        {this.props.player.weekly_accumulation.adena}
       </td>
       <td className='table-info__text'>
-        {this.props.player.total_points}  
+        {this.props.player.weekly_accumulation.pob}  
+      </td>
+      <td className='table-info__text'>
+        {this.props.player.weekly_accumulation.rss}  
+      </td>
+      <td className='table-info__text'>
+        {this.props.player.weekly_points}  
       </td>
       <td>
         <a href='#' className='btn btn-success btn-sm' data-toggle='modal' data-target={`#playerId--${this.props.player.id}`}>

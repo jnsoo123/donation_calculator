@@ -9,8 +9,10 @@ var PlayerList = createReactClass({
           <tr>
             <th>Rank</th>
             <th>IGN</th>
+            <th>Weekly Adena</th>
+            <th>Weekly POB</th>
+            <th>Weekly RSS</th>
             <th>Weekly Points</th>
-            <th>Total Points</th>
             <th>Actions</th>
           </tr>
         </thead>

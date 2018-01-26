@@ -1,12 +1,12 @@
-@import 'bootswatch/lux/variables';
+@import 'bootswatch/cosmo/variables';
 @import 'bootstrap';
-@import 'bootswatch/lux/bootswatch';
+@import 'bootswatch/cosmo/bootswatch';
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 @import 'components/*';
 
-.container-fluid.container-main {
-  margin-top: 120px;
+.container.container-main {
+  margin-top: 70px;
 }
 
 .small-container {

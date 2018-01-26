@@ -13,6 +13,11 @@ class UsersController < ApplicationController
   end
 
   def update
+    if params[:user][:password].blank?
+      params[:user].delete 'password'
+      params[:user].delete 'password_confirmation'
+    end
+
     if @user.update(user_params)
       redirect_to users_path, notice: 'Account updated!'
     else
@@ -28,6 +33,12 @@ class UsersController < ApplicationController
     else
       flash[:error] = @user.errors.full_messages.to_sentence
       render :new
+    end
+  end
+
+  def destroy
+    if @user.destroy
+      redirect_to users_path, notice: 'User deleted!'
     end
   end
 

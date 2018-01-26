@@ -18,16 +18,13 @@
 
       <div class="collapse navbar-collapse" id="navbarColor03">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item <%= active_page?(root_path) %>">
             <a class="nav-link" href="/">Players</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" data-target='#newPlayerModal' data-toggle='modal'>New Player</a>
           </li>
-          <li class="nav-item">
-            <%= link_to 'New Account', new_user_path, class: 'nav-link' %>
-          </li>
-          <li class="nav-item">
+          <li class="nav-item <%= active_page?(users_path) %>">
             <%= link_to 'Users', users_path, class: 'nav-link' %>
           </li>
         </ul>
@@ -38,7 +35,7 @@
         </ul>
       </div>
     </nav>
-    <div class='container-fluid container-main'>
+    <div class='container container-main'>
       <%= render partial: 'shared/alerts' %>
       <%= yield %>
     </div>

@@ -15,5 +15,4 @@ table.table.table-hover
         td.table-info__text= user.username
         td.table-info__text= user.created_at.strftime('%B %d, %Y -- %l:%m %p')
         td
-          = link_to icon('pencil', ' Edit'), edit_user_path(user), class: 'btn btn-sm btn-info'
           = link_to icon('trash', ' Delete'), user_path(user), class: 'btn btn-sm btn-danger', method: :delete, data: { confirm: 'Are you sure?' }

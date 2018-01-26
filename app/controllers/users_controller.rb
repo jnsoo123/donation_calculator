@@ -1,15 +1,15 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:edit, :update, :destroy]
+  before_action :set_user, only: [:destroy]
 
   def index
     @users = User.all
   end
 
-  def new
-    @user = User.new
+  def edit
   end
 
-  def edit
+  def new
+    @user = User.new
   end
 
   def update
@@ -18,7 +18,7 @@ class UsersController < ApplicationController
       params[:user].delete 'password_confirmation'
     end
 
-    if @user.update(user_params)
+    if current_user.update(user_params)
       redirect_to users_path, notice: 'Account updated!'
     else
       flash[:error] = @user.errors.full_messages.to_sentence

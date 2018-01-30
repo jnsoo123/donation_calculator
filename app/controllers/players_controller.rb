@@ -2,6 +2,7 @@ class PlayersController < ApplicationController
   before_action :set_player, only: [:show, :destroy, :edit, :update]
 
   def index
+    authorize Player
     @players = Player.all
       .includes(:contributions)
       .sort_by(&:weekly_points)
@@ -10,9 +11,11 @@ class PlayersController < ApplicationController
   end
 
   def edit
+    authorize Player
   end
 
   def show
+    authorize Player
   end
 
   def update

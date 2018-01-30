@@ -1,6 +1,7 @@
 var PlayerList = createReactClass({
   render: function() {
     var authenticityToken = this.props.authenticity_token
+    var crudAuthority     = this.props.crud_authority
 
     return(<div className='players-component'>
       <h1>Players</h1>
@@ -19,7 +20,7 @@ var PlayerList = createReactClass({
         <tbody>
           {this.props.players.map(function(player, i){
             return (
-              <PlayerRow player={player} key={i} rank={i+1} />
+              <PlayerRow player={player} key={i} rank={i+1} crud_authority={crudAuthority} />
             )
           })} 
         </tbody>

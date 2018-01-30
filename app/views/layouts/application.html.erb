@@ -21,20 +21,27 @@
           <li class="nav-item <%= active_page?(root_path) %>">
             <a class="nav-link" href="/">Players</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" data-target='#newPlayerModal' data-toggle='modal'>New Player</a>
-          </li>
-          <li class="nav-item <%= active_page?(users_path) %>">
-            <%= link_to 'Users', users_path, class: 'nav-link' %>
-          </li>
+          <% if policy(:player).create? %>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-target='#newPlayerModal' data-toggle='modal'>New Player</a>
+            </li>
+          <% end %>
+          <% if policy(:user).index? %>
+            <li class="nav-item <%= active_page?(users_path) %>">
+              <%= link_to 'Users', users_path, class: 'nav-link' %>
+            </li>
+          <% end %>
         </ul>
         <ul class='navbar-nav my-2 my-lg-0'>
           <li class='nav-item mr-sm-2'>
-            <%= link_to icon('user', " Edit Account"), edit_user_path, class: 'nav-link' %>
+            <%= link_to icon('user', " Edit Account"), edit_user_path(current_user), class: 'nav-link' %>
           </li>
           <li class='nav-item mr-sm-2'>
             <%= link_to 'Logout', destroy_user_session_path, class: 'nav-link', method: :delete %>
           </li>
+          <span class='navbar-text'>
+            Logged in as: <%= current_user.username %>
+          </span>
         </ul>
       </div>
     </nav>

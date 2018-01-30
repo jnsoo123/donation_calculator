@@ -3,7 +3,8 @@
     h1 Player Info
   .pull-right
     = link_to icon('pencil'), edit_player_path(@player), class: 'btn btn-warning btn-sm'
-    = link_to icon('trash'), player_path(@player), class: 'btn btn-danger btn-sm', method: :delete
+    - if policy(:player).destroy?
+      = link_to icon('trash'), player_path(@player), class: 'btn btn-danger btn-sm', method: :delete
 hr
 .row
   .col-md-4
@@ -50,4 +51,5 @@ table.table.table-hover
         td.table-info__text= contrib.value
         td.table-info__text= contrib.points
         td.table-info__text= contrib.created_at.strftime('%B %d, %Y -- %l:%M %p')
-        td= link_to icon('trash', ' Delete'), contribution_path(contrib), class: 'btn btn-danger btn-sm', method: :delete
+        - if policy(:player).destroy?
+          td= link_to icon('trash', ' Delete'), contribution_path(contrib), class: 'btn btn-danger btn-sm', method: :delete

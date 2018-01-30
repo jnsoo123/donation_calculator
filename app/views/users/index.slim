@@ -1,11 +1,13 @@
 .clearfix
   h1.pull-left Users
-  = link_to icon('plus', ' Create New User'), new_user_path, class: 'btn btn-success pull-right', style: 'margin-top: 8px;'
+  - if policy(:user).create?
+    = link_to icon('plus', ' Create New User'), new_user_path, class: 'btn btn-success pull-right', style: 'margin-top: 8px;'
 table.table.table-hover
   thead
     tr
       th ID
       th Username
+      th Role
       th Created On
       th
   tbody
@@ -13,6 +15,11 @@ table.table.table-hover
       tr
         td.table-info__text= user.id
         td.table-info__text= user.username
+        td.table-info__text
+          span.badge class='#{user.admin? ? 'badge-danger' : "#{user.moderator? ? 'badge-warning' : 'badge-primary'}"}' = user.role
         td.table-info__text= user.created_at.strftime('%B %d, %Y -- %l:%m %p')
         td
-          = link_to icon('trash', ' Delete'), user_path(user), class: 'btn btn-sm btn-danger', method: :delete, data: { confirm: 'Are you sure?' }
+          - if policy(:user).destroy?
+            - if !user.admin?
+              = link_to "#{user.user? ? 'Set as moderator' : 'Set as normal user'}", user_toggle_role_path(user), class: 'btn btn-sm btn-info', method: :patch
+              = link_to icon('trash', ' Delete'), user_path(user), class: 'btn btn-sm btn-danger', method: :delete, data: { confirm: 'Are you sure?' }

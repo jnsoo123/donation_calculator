@@ -1,7 +1,7 @@
 .small-container
   h1 Edit User Account
   hr
-  = form_for current_user do |f|
+  = form_for :user, url: user_path(current_user), method: :put do |f|
     fieldset
       .form-group
         = f.label :username

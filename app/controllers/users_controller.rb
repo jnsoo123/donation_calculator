@@ -1,25 +1,29 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:destroy]
+  before_action :set_user, only: [:destroy, :toggle_role, :edit, :update]
 
   def index
-    @users = User.all
+    authorize User
+    @users = User.all.order(:id)
   end
 
   def edit
+    authorize User
   end
 
   def new
+    authorize User
     @user = User.new
   end
 
   def update
+    authorize User
     if params[:user][:password].blank?
       params[:user].delete 'password'
       params[:user].delete 'password_confirmation'
     end
 
     if current_user.update(user_params)
-      redirect_to users_path, notice: 'Account updated!'
+      redirect_to root_path, notice: 'Account updated!'
     else
       flash[:error] = @user.errors.full_messages.to_sentence
       render :edit
@@ -27,9 +31,10 @@ class UsersController < ApplicationController
   end
 
   def create
+    authorize User
     @user = User.new(user_params)
     if @user.save
-      redirect_to root_path, notice: 'Account created!'
+      redirect_to users_path, notice: 'Account created!'
     else
       flash[:error] = @user.errors.full_messages.to_sentence
       render :new
@@ -37,9 +42,16 @@ class UsersController < ApplicationController
   end
 
   def destroy
+    authorize User
     if @user.destroy
       redirect_to users_path, notice: 'User deleted!'
     end
+  end
+
+  def toggle_role
+    authorize User
+    @user.moderator? ? @user.user! : @user.moderator!
+    redirect_to users_path, notice: 'User updated!'
   end
 
   private

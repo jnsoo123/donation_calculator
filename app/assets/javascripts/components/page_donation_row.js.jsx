@@ -6,7 +6,7 @@ var PageDonationRow = createReactClass({
     var year  = date.getFullYear()
     var hours = date.getHours()
     var mins  = date.getMinutes()
-    
+
     if (mins.toString().length == 1) {
       mins = `0${mins.toString()}`
     }
@@ -14,15 +14,10 @@ var PageDonationRow = createReactClass({
     return `${month}/${day}/${year} ${hours}:${mins}`
   },
 
-  render: function() {
-    var date = new Date(this.props.page_donation.updated_at)
-    var pageId = this.props.page_donation.id
-    return(<tr>
-      <td>{this.props.page_donation.player.in_game_name}</td> 
-      <td>{this.props.page_donation.count}</td> 
-      <td>{this.props.page_donation.level}</td> 
-      <td>{this.dateFormat()}</td> 
-      <td>
+  renderUpdateButton: function() {
+    if(this.props.update_policy) {
+      var pageId = this.props.page_donation.id
+      return(<div>
         <button 
           data-toggle='modal' 
           data-target={`#pageDonationId--${pageId}`} 
@@ -35,6 +30,24 @@ var PageDonationRow = createReactClass({
           className='btn btn-primary btn-sm'>
           <i className='fa fa-pencil'></i> Update MS Page/LVL
         </button>
+      </div>)
+    } else {
+      return(
+        <span>Not Authorized</span>
+      )
+    }
+  },
+
+  render: function() {
+    var date = new Date(this.props.page_donation.updated_at)
+    var pageId = this.props.page_donation.id
+    return(<tr>
+      <td>{this.props.page_donation.player.in_game_name}</td> 
+      <td>{this.props.page_donation.count}</td> 
+      <td>{this.props.page_donation.level}</td> 
+      <td>{this.dateFormat()}</td> 
+      <td>
+        {this.renderUpdateButton()}
       </td>
     </tr>) 
   }

@@ -14,8 +14,8 @@ var PageDonationList = createReactClass({
         </thead> 
         <tbody>
           {this.props.page_donations.map(function(pg, i){
-            return <PageDonationRow key={i} page_donation={pg} /> 
-          })}
+            return <PageDonationRow key={i} update_policy={this.props.update_policy} page_donation={pg} /> 
+          }.bind(this))}
         </tbody>
       </table>
       {this.props.page_donations.map(function(pg, i){

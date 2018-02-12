@@ -1,5 +1,6 @@
 class Player < ApplicationRecord
   has_many :contributions, dependent: :destroy
+  has_one  :page_donation, dependent: :destroy
 
   after_create do
     PageDonation.create(player: self, level: 0, count: 0)

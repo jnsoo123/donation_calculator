@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player: one
+  count: 1
+  level: 1
+
+two:
+  player: two
+  count: 1
+  level: 1

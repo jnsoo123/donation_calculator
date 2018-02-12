@@ -21,6 +21,9 @@
           <li class="nav-item <%= active_page?(root_path) %>">
             <a class="nav-link" href="/">Players</a>
           </li>
+          <li class='nav-item <%= active_page?(page_donations_path) %>'>
+            <%= link_to 'MS Page Donations', page_donations_path, class: 'nav-link' %>
+          </li>
           <% if policy(:player).create? %>
             <li class="nav-item">
               <a class="nav-link" href="#" data-target='#newPlayerModal' data-toggle='modal'>New Player</a>

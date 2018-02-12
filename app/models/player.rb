@@ -1,6 +1,10 @@
 class Player < ApplicationRecord
   has_many :contributions, dependent: :destroy
 
+  after_create do
+    PageDonation.create(player: self, level: 0, count: 0)
+  end
+
   def total_points
     contributions.map(&:points).sum
   end

@@ -23,6 +23,9 @@ gem 'react-rails'
 gem 'ransack'
 gem 'devise'
 gem 'pundit'
+gem 'activeadmin'
+gem 'formadmin'
+gem 'activeadmin_addons'
 
 group :development, :test do
   gem 'capybara', '~> 2.13'

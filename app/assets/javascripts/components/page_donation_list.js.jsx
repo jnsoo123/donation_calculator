@@ -10,7 +10,7 @@ var PageDonationList = createReactClass({
               <th>MS Page Count</th>
               <th>MS LVL</th>
               <th>Last Given On</th>
-              <th></th>
+              <th>Actions</th>
             </tr>
           </thead> 
           <tbody>

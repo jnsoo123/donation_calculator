@@ -17,7 +17,7 @@ var PageDonationRow = createReactClass({
   renderUpdateButton: function() {
     if(this.props.update_policy) {
       var pageId = this.props.page_donation.id
-      return(<div>
+      return(<div className='btn-group'>
         <button 
           data-toggle='modal' 
           data-target={`#pageDonationId--${pageId}`} 

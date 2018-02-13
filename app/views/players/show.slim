@@ -2,9 +2,10 @@
   .pull-left
     h1 Player Info
   .pull-right
-    = link_to icon('pencil'), edit_player_path(@player), class: 'btn btn-warning btn-sm'
-    - if policy(:player).destroy?
-      = link_to icon('trash'), player_path(@player), class: 'btn btn-danger btn-sm', method: :delete
+    .btn-group
+      = link_to icon('pencil'), edit_player_path(@player), class: 'btn btn-warning btn-sm'
+      - if policy(:player).destroy?
+        = link_to icon('trash'), player_path(@player), class: 'btn btn-danger btn-sm', method: :delete
 hr
 .row
   .col-md-4
@@ -34,22 +35,23 @@ br
 h1 Contribution History
 hr
 
-table.table.table-hover
-  thead
-    tr
-      th ID
-      th Type
-      th Value
-      th Points Accumulated
-      th Created On
-      th
-  tbody
-    - @player.contributions.reverse.each do |contrib|
+.table-responsive
+  table.table.table-hover
+    thead
       tr
-        td.table-info__text= contrib.id
-        td.table-info__text= contrib.contribution_type
-        td.table-info__text= contrib.value
-        td.table-info__text= contrib.points
-        td.table-info__text= contrib.created_at.strftime('%B %d, %Y -- %l:%M %p')
-        - if policy(:player).destroy?
-          td= link_to icon('trash', ' Delete'), contribution_path(contrib), class: 'btn btn-danger btn-sm', method: :delete
+        th ID
+        th Type
+        th Value
+        th Points Accumulated
+        th Created On
+        th
+    tbody
+      - @player.contributions.reverse.each do |contrib|
+        tr
+          td.table-info__text= contrib.id
+          td.table-info__text= contrib.contribution_type
+          td.table-info__text= contrib.value
+          td.table-info__text= contrib.points
+          td.table-info__text= contrib.created_at.strftime('%B %d, %Y -- %l:%M %p')
+          - if policy(:player).destroy?
+            td= link_to icon('trash', ' Delete'), contribution_path(contrib), class: 'btn btn-danger btn-sm', method: :delete

@@ -3,7 +3,7 @@ var PlayerRow = createReactClass({
     console.log(this.props.crud_authority)
     if (this.props.crud_authority) {
       return(
-        <td>
+        <td className='btn-group'>
           <a 
             href='#' 
             className='btn btn-success btn-sm' 

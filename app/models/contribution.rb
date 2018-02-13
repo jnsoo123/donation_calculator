@@ -1,6 +1,6 @@
 class Contribution < ApplicationRecord
   CONTRIBUTION_DIVISION_MAPPING = {
-    'adena' => 5000,
+    'adena' => 2500,
     'pob'   => 40,
     'rss'   => 20,
     'quest' => 1
@@ -8,7 +8,7 @@ class Contribution < ApplicationRecord
 
   CONTRIBUTION_POINTS_MAPPING = {
     'quest' => 50,
-    'adena' => 10,
+    'adena' => 5,
     'rss'   => 10,
     'pob'   => 10
   }

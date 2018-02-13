@@ -30,7 +30,7 @@ var PlayerAddPointModal = createReactClass({
 
   inputStep: function() {
     if (this.state.type == 'adena') {
-      return '5000'
+      return '2500'
     } else if (this.state.type == 'pob') {
       return '40'
     } else if (this.state.type == 'rss'){

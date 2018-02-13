@@ -21,8 +21,10 @@ var PlayerAddPointModal = createReactClass({
       return '75000'
     } else if (this.state.type == 'pob') {
       return '1200'
-    } else {
+    } else if (this.state.type == 'rss') {
       return '600'
+    } else { // quest
+      return '30'
     }
   },
 
@@ -31,8 +33,10 @@ var PlayerAddPointModal = createReactClass({
       return '5000'
     } else if (this.state.type == 'pob') {
       return '40'
-    } else {
+    } else if (this.state.type == 'rss'){
       return '20'
+    } else { // quest
+      return '1'
     }
   },
 
@@ -41,8 +45,10 @@ var PlayerAddPointModal = createReactClass({
       return (this.state.value / 5000) * 10
     } else if (this.state.type == 'pob') {
       return (this.state.value / 40) * 10
-    } else {
+    } else if (this.state.type == 'rss') {
       return (this.state.value / 20) * 10
+    } else {
+      return (this.state.value / 1) * 50
     }
   },
 
@@ -65,6 +71,7 @@ var PlayerAddPointModal = createReactClass({
                     <option value='adena'>Adena</option> 
                     <option value='pob'>Proof of Blood</option>
                     <option value='rss'>Redstar Stone</option>
+                    <option value='quest'>Clan Quest</option>
                   </select>
                 </div>
                 <div className='form-group'>

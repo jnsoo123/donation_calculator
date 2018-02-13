@@ -46,6 +46,9 @@ var PlayerRow = createReactClass({
         {this.props.player.weekly_accumulation.rss}  
       </td>
       <td className='table-info__text'>
+        {this.props.player.weekly_accumulation.quest} 
+      </td>
+      <td className='table-info__text'>
         {this.props.player.weekly_points}  
       </td>
       {this.renderActions()}

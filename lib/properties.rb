@@ -1,6 +1,6 @@
 module ContributionTypes
-  ALL = [:adena, :pob, :rss]
-  ALL_ENUM = {adena: 0, pob: 1, rss: 2}
+  ALL = [:adena, :pob, :rss, :quest]
+  ALL_ENUM = {adena: 0, pob: 1, rss: 2, quest: 3}
 end
 
 module UserRoles

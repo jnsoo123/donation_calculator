@@ -13,6 +13,7 @@ var PlayerList = createReactClass({
             <th>Weekly Adena</th>
             <th>Weekly POB</th>
             <th>Weekly RSS</th>
+            <th>Weekly Clan Quests</th>
             <th>Weekly Points</th>
             <th>Actions</th>
           </tr>

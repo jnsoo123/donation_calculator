@@ -15,7 +15,7 @@ class Player < ApplicationRecord
   end
 
   def weekly_accumulation
-    accumulation = {rss: 0, pob: 0, adena: 0}
+    accumulation = {rss: 0, pob: 0, adena: 0, quest: 0}
     contributions.ransack({created_at_gteq: Date.today.beginning_of_week}).result.each do |contrib|
       accumulation[contrib.contribution_type.to_sym] += contrib.value
     end

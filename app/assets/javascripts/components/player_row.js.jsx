@@ -28,7 +28,8 @@ var PlayerRow = createReactClass({
   },
   render: function() {
     var isTopTen = this.props.rank <= 10
-    return(<tr>
+    var isBelowQuota = this.props.player.weekly_accumulation.rss < 2100
+    return(<tr className={isBelowQuota ? 'table-danger' : ''}>
       <td style={{color: '#FFD700'}}>
         {isTopTen ? <i className='fa fa-trophy'></i> : ''}
       </td>
@@ -47,7 +48,9 @@ var PlayerRow = createReactClass({
         {this.props.player.weekly_accumulation.pob}  
       </td>
       <td className='table-info__text'>
-        {this.props.player.weekly_accumulation.rss}  
+        <span className={isBelowQuota ? 'text-danger' : ''}>
+          {this.props.player.weekly_accumulation.rss}  
+        </span>
       </td>
       <td className='table-info__text'>
         {this.props.player.weekly_accumulation.quest} 

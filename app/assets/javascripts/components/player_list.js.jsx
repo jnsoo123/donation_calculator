@@ -9,6 +9,7 @@ var PlayerList = createReactClass({
         <table className='table table-hover'>
           <thead>
             <tr>
+              <th></th>
               <th>Rank</th>
               <th>IGN</th>
               <th>Weekly Adena</th>

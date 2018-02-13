@@ -27,7 +27,11 @@ var PlayerRow = createReactClass({
     }
   },
   render: function() {
+    var isTopTen = this.props.rank <= 10
     return(<tr>
+      <td style={{color: '#FFD700'}}>
+        {isTopTen ? <i className='fa fa-trophy'></i> : ''}
+      </td>
       <td className='table-info__text'>
         {this.props.rank}
       </td>

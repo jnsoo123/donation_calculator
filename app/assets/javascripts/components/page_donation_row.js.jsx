@@ -41,7 +41,8 @@ var PageDonationRow = createReactClass({
   render: function() {
     var date = new Date(this.props.page_donation.updated_at)
     var pageId = this.props.page_donation.id
-    return(<tr>
+    var isBelowQuota = this.props.page_donation.player.weekly_accumulation.rss < 2100
+    return(<tr className={isBelowQuota ? 'table-danger' : ''}>
       <td>{this.props.page_donation.player.in_game_name}</td> 
       <td>{this.props.page_donation.count}</td> 
       <td>{this.props.page_donation.level}</td> 

@@ -2,9 +2,9 @@ class PageDonationsController < ApplicationController
   before_action :set_page_donation, only: :update
 
   def index
-    @page_donations = PageDonation.all
+    @page_donations = PageDonation.includes(:player).all
       .order(level: :asc, updated_at: :asc)
-      .as_json(methods: [:player])
+      .as_json({include: { player: { methods: :weekly_accumulation } }})
   end
 
   def update

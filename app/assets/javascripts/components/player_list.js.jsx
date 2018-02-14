@@ -4,6 +4,10 @@ var PlayerList = createReactClass({
     var crudAuthority     = this.props.crud_authority
 
     return(<div className='players-component'>
+      <div className='alert alert-dismissible alert-primary'>
+        <h4>Heads Up!</h4>
+        <strong className='text-danger'>Red</strong> highlighted row means the player did not reach the RSS quota for the week.
+      </div>
       <h1>Players</h1>
       <div className='table-responsive'>
         <table className='table table-hover'>

@@ -1,3 +1,6 @@
+- humanized_jobs_mapping = Player::JOBS.collect do |job|
+  - [job.to_s.humanize.titleize, job]
+
 .small-container
   h1 Edit Information
   hr
@@ -9,7 +12,11 @@
     fieldset
       .form-group
         = f.label :in_game_name
-        = f.text_field :in_game_name, class: 'form-control'
+        = f.text_field :in_game_name, class: 'form-control', required: true
+    fieldset
+      .form-group
+        = f.label :job
+        = f.select :job, humanized_jobs_mapping, {include_blank: 'Select Class'}, { class: 'form-control', required: true }
     br
     .actions.form-group
       = f.submit :Save, class: 'btn btn-success btn-block'

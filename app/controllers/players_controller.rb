@@ -3,11 +3,15 @@ class PlayersController < ApplicationController
 
   def index
     authorize Player
+    players_job_count = Player.all.group(:job).count
+    @players_job_count = players_job_count.collect do |job, count|
+      [job.titleize, count]
+    end
     @players = Player.all
       .includes(:contributions)
       .sort_by(&:weekly_points)
       .reverse
-      .as_json(methods: [:weekly_accumulation, :weekly_points])
+      .as_json(methods: [:weekly_accumulation, :weekly_points, :humanize_job])
   end
 
   def edit
@@ -42,6 +46,6 @@ class PlayersController < ApplicationController
   end
 
   def player_params
-    params.require(:player).permit(:in_game_name, :name)
+    params.require(:player).permit(:in_game_name, :name, :job)
   end
 end

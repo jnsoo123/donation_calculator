@@ -38,7 +38,7 @@ var PlayerRow = createReactClass({
       </td>
       <td className='table-info__text'>
         <a href={`players/${this.props.player.id}`}>
-          {this.props.player.in_game_name}
+          <strong>{this.props.player.in_game_name}</strong> ({this.props.player.humanize_job})
         </a>
       </td>
       <td className='table-info__text'>

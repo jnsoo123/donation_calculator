@@ -1,6 +1,10 @@
 class ContributionsController < ApplicationController
   before_action :set_contribution, only: :destroy
 
+  def index
+    @contributions = Contribution.all.reverse
+  end
+
   def create
     @contribution = Contribution.new(contribution_params)
     if @contribution.save

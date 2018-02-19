@@ -1,0 +1,19 @@
+h1 Contribution History
+
+.table-responsive
+  table.table.table-hover
+    thead
+      th ID
+      th IGN
+      th Type
+      th Value
+      th Created On
+    tbody
+      - @contributions.each do |contrib|
+        tr
+          td= contrib.id
+          td= contrib.player.in_game_name
+          td= contrib.contribution_type
+          td= contrib.value
+          td= contrib.created_at
+

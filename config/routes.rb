@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
 
   resources :players, only: [:index, :create, :destroy, :show, :edit, :update]
-  resources :contributions, only: [:create, :destroy]
+  resources :contributions, only: [:create, :destroy, :index]
   resources :users, only: [:new, :create, :index, :destroy, :edit, :update]
   resources :page_donations, only: [:index, :update]
 

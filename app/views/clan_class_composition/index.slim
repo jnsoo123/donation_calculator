@@ -1,0 +1,12 @@
+h1 Clan Class Composition
+.table-responsive
+  table.table.table-hover
+    thead
+      tr
+        th Class
+        th Count
+    tbody
+      - @job_count.each do |job, count|
+        tr
+          td= job.to_s.titleize
+          td= count

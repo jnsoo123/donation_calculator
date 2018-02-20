@@ -2,17 +2,22 @@ var PlayerRow = createReactClass({
   renderActions: function() {
     console.log(this.props.crud_authority)
     if (this.props.crud_authority) {
+      var player = this.props.player
       return(
         <td className='btn-group'>
+          <a href={`players/${player.id}`}
+            className='btn btn-info btn-sm'>
+            <i className='fa fa-eye'></i> Info
+          </a>
           <a 
             href='#' 
             className='btn btn-success btn-sm' 
             data-toggle='modal' 
-            data-target={`#playerId--${this.props.player.id}`}>
+            data-target={`#playerId--${player.id}`}>
             <i className='fa fa-plus'></i> Points
           </a>
           <a 
-            href={`players/${this.props.player.id}`} 
+            href={`players/${player.id}`} 
             data-confirm={`Are you sure you want to remove ${this.props.player.in_game_name}?`} 
             data-method='delete' 
             className='btn btn-danger btn-sm'>
@@ -29,7 +34,7 @@ var PlayerRow = createReactClass({
   render: function() {
     var isTopTen = this.props.rank <= 10
     var isBelowQuota = this.props.player.weekly_accumulation.rss < 2100
-    return(<tr className={isBelowQuota ? 'table-danger' : ''}>
+    return(<tr className={isBelowQuota ? 'table-active' : ''}>
       <td style={{color: '#FFD700'}}>
         {isTopTen ? <i className='fa fa-trophy'></i> : ''}
       </td>
@@ -37,9 +42,10 @@ var PlayerRow = createReactClass({
         {this.props.rank}
       </td>
       <td className='table-info__text'>
-        <a href={`players/${this.props.player.id}`}>
-          <strong>{this.props.player.in_game_name}</strong> ({this.props.player.humanize_job})
-        </a>
+        {this.props.player.in_game_name}
+      </td>
+      <td className='table-info__text'>
+        {this.props.player.humanize_job}
       </td>
       <td className='table-info__text'>
         {this.props.player.weekly_accumulation.adena}

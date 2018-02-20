@@ -5,8 +5,7 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %> <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -25,6 +24,9 @@
           </li>
           <li class='nav-item <%= active_page?(page_donations_path) %>'>
             <%= link_to 'MS Page Donations', page_donations_path, class: 'nav-link' %>
+          </li>
+          <li class='nav-item <%= active_page?(clan_class_composition_index_path) %>'>
+            <%= link_to 'Clan Class Composition', clan_class_composition_index_path, class: 'nav-link' %>
           </li>
           <% if policy(:player).create? %>
             <li class="nav-item">

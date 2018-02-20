@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :contributions, only: [:create, :destroy, :index]
   resources :users, only: [:new, :create, :index, :destroy, :edit, :update]
   resources :page_donations, only: [:index, :update]
+  resources :clan_class_composition, only: :index
 
   patch '/users/:id/toggle_role', to: 'users#toggle_role', as: :user_toggle_role
   root 'players#index'

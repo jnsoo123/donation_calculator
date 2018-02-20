@@ -3,10 +3,6 @@ class PlayersController < ApplicationController
 
   def index
     authorize Player
-    players_job_count = Player.all.group(:job).count
-    @players_job_count = players_job_count.collect do |job, count|
-      [job.try(:titleize), count]
-    end
     @players = Player.all
       .includes(:contributions)
       .sort_by(&:weekly_points)

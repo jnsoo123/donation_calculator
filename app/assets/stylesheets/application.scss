@@ -1,9 +1,8 @@
-@import 'bootswatch/sketchy/variables';
+@import 'bootswatch/lumen/variables';
 @import 'bootstrap';
-@import 'bootswatch/sketchy/bootswatch';
+@import 'bootswatch/lumen/bootswatch';
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
-@import 'components/*';
 
 .container.container-main {
   margin-top: 70px;
@@ -17,4 +16,10 @@
 .login-container {
   max-width: 500px;
   margin: 100px auto;
+}
+
+.alert-secondary {
+  color: #222 !important;
+  background-color: #f0f0f0;
+  border-color: #e3e3e3;
 }

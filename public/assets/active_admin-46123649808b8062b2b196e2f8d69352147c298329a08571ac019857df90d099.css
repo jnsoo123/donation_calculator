@@ -1,0 +1,4314 @@
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+}
+
+/* line 7, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container .select2-selection--single {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 28px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* line 14, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container .select2-selection--single .select2-selection__rendered {
+  display: block;
+  padding-left: 8px;
+  padding-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 21, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container .select2-selection--single .select2-selection__clear {
+  position: relative;
+}
+
+/* line 23, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered {
+  padding-right: 8px;
+  padding-left: 20px;
+}
+
+/* line 26, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container .select2-selection--multiple {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  min-height: 32px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* line 33, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 39, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container .select2-search--inline {
+  float: left;
+}
+
+/* line 41, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container .select2-search--inline .select2-search__field {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  font-size: 100%;
+  margin-top: 5px;
+  padding: 0;
+}
+
+/* line 47, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container .select2-search--inline .select2-search__field::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* line 50, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-dropdown {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: -100000px;
+  width: 100%;
+  z-index: 1051;
+}
+
+/* line 61, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-results {
+  display: block;
+}
+
+/* line 64, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-results__options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 69, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-results__option {
+  padding: 6px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* line 73, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-results__option[aria-selected] {
+  cursor: pointer;
+}
+
+/* line 76, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--open .select2-dropdown {
+  left: 0;
+}
+
+/* line 79, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--open .select2-dropdown--above {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 84, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--open .select2-dropdown--below {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 89, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-search--dropdown {
+  display: block;
+  padding: 4px;
+}
+
+/* line 92, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-search--dropdown .select2-search__field {
+  padding: 4px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 96, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-search--dropdown .select2-search__field::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* line 98, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-search--dropdown.select2-search--hide {
+  display: none;
+}
+
+/* line 101, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-close-mask {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  z-index: 99;
+  background-color: #fff;
+  filter: alpha(opacity=0);
+}
+
+/* line 118, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-hidden-accessible {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+/* line 128, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--single {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+/* line 132, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #444;
+  line-height: 28px;
+}
+
+/* line 135, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--single .select2-selection__clear {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+}
+
+/* line 139, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+  color: #999;
+}
+
+/* line 141, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 26px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 20px;
+}
+
+/* line 147, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #888 transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  height: 0;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -2px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+/* line 159, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__clear {
+  float: left;
+}
+
+/* line 162, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+  left: 1px;
+  right: auto;
+}
+
+/* line 166, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default.select2-container--disabled .select2-selection--single {
+  background-color: #eee;
+  cursor: default;
+}
+
+/* line 169, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__clear {
+  display: none;
+}
+
+/* line 172, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent transparent #888 transparent;
+  border-width: 0 4px 5px 4px;
+}
+
+/* line 176, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--multiple {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: text;
+}
+
+/* line 181, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0 5px;
+  width: 100%;
+}
+
+/* line 187, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+  list-style: none;
+}
+
+/* line 189, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--multiple .select2-selection__placeholder {
+  color: #999;
+  margin-top: 5px;
+  float: left;
+}
+
+/* line 193, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+/* line 199, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #e4e4e4;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: default;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
+/* line 208, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  color: #999;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+/* line 214, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+  color: #333;
+}
+
+/* line 217, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice, .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder, .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+  float: right;
+}
+
+/* line 220, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+/* line 224, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+  margin-left: 2px;
+  margin-right: auto;
+}
+
+/* line 228, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: solid black 1px;
+  outline: 0;
+}
+
+/* line 232, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default.select2-container--disabled .select2-selection--multiple {
+  background-color: #eee;
+  cursor: default;
+}
+
+/* line 236, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default.select2-container--disabled .select2-selection__choice__remove {
+  display: none;
+}
+
+/* line 239, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single, .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 243, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 247, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #aaa;
+}
+
+/* line 250, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-search--inline .select2-search__field {
+  background: transparent;
+  border: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-appearance: textfield;
+}
+
+/* line 257, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* line 261, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option[role=group] {
+  padding: 0;
+}
+
+/* line 264, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option[aria-disabled=true] {
+  color: #999;
+}
+
+/* line 267, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: #ddd;
+}
+
+/* line 270, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option .select2-results__option {
+  padding-left: 1em;
+}
+
+/* line 272, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__group {
+  padding-left: 0;
+}
+
+/* line 274, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -1em;
+  padding-left: 2em;
+}
+
+/* line 277, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -2em;
+  padding-left: 3em;
+}
+
+/* line 280, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -3em;
+  padding-left: 4em;
+}
+
+/* line 283, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -4em;
+  padding-left: 5em;
+}
+
+/* line 286, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -5em;
+  padding-left: 6em;
+}
+
+/* line 290, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #5897fb;
+  color: white;
+}
+
+/* line 294, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--default .select2-results__group {
+  cursor: default;
+  display: block;
+  padding: 6px;
+}
+
+/* line 299, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--single {
+  background-color: #f7f7f7;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  outline: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), to(#eeeeee));
+  background-image: linear-gradient(to bottom, white 50%, #eeeeee 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0);
+}
+
+/* line 309, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--single:focus {
+  border: 1px solid #5897fb;
+}
+
+/* line 311, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--single .select2-selection__rendered {
+  color: #444;
+  line-height: 28px;
+}
+
+/* line 314, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--single .select2-selection__clear {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* line 319, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--single .select2-selection__placeholder {
+  color: #999;
+}
+
+/* line 321, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--single .select2-selection__arrow {
+  background-color: #ddd;
+  border: none;
+  border-left: 1px solid #aaa;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 26px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #eeeeee), to(#cccccc));
+  background-image: linear-gradient(to bottom, #eeeeee 50%, #cccccc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFCCCCCC', GradientType=0);
+}
+
+/* line 337, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--single .select2-selection__arrow b {
+  border-color: #888 transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  height: 0;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -2px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+/* line 349, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__clear {
+  float: left;
+}
+
+/* line 352, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+  border: none;
+  border-right: 1px solid #aaa;
+  border-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  left: 1px;
+  right: auto;
+}
+
+/* line 361, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open .select2-selection--single {
+  border: 1px solid #5897fb;
+}
+
+/* line 363, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow {
+  background: transparent;
+  border: none;
+}
+
+/* line 366, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent transparent #888 transparent;
+  border-width: 0 4px 5px 4px;
+}
+
+/* line 370, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open.select2-container--above .select2-selection--single {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, #eeeeee));
+  background-image: linear-gradient(to bottom, white 0%, #eeeeee 50%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0);
+}
+
+/* line 380, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open.select2-container--below .select2-selection--single {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #eeeeee), to(white));
+  background-image: linear-gradient(to bottom, #eeeeee 50%, white 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFFFFFFF', GradientType=0);
+}
+
+/* line 390, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--multiple {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: text;
+  outline: 0;
+}
+
+/* line 396, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--multiple:focus {
+  border: 1px solid #5897fb;
+}
+
+/* line 398, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--multiple .select2-selection__rendered {
+  list-style: none;
+  margin: 0;
+  padding: 0 5px;
+}
+
+/* line 402, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--multiple .select2-selection__clear {
+  display: none;
+}
+
+/* line 404, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--multiple .select2-selection__choice {
+  background-color: #e4e4e4;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: default;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
+/* line 413, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove {
+  color: #888;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+/* line 419, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove:hover {
+  color: #555;
+}
+
+/* line 422, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+  float: right;
+}
+
+/* line 425, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+/* line 429, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+  margin-left: 2px;
+  margin-right: auto;
+}
+
+/* line 433, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open .select2-selection--multiple {
+  border: 1px solid #5897fb;
+}
+
+/* line 436, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open.select2-container--above .select2-selection--multiple {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 441, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open.select2-container--below .select2-selection--multiple {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 446, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-search--dropdown .select2-search__field {
+  border: 1px solid #aaa;
+  outline: 0;
+}
+
+/* line 450, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-search--inline .select2-search__field {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 454, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-dropdown {
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+/* line 458, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-dropdown--above {
+  border-bottom: none;
+}
+
+/* line 461, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-dropdown--below {
+  border-top: none;
+}
+
+/* line 464, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-results > .select2-results__options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* line 468, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-results__option[role=group] {
+  padding: 0;
+}
+
+/* line 471, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-results__option[aria-disabled=true] {
+  color: grey;
+}
+
+/* line 474, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-results__option--highlighted[aria-selected] {
+  background-color: #3875d7;
+  color: white;
+}
+
+/* line 478, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic .select2-results__group {
+  cursor: default;
+  display: block;
+  padding: 6px;
+}
+
+/* line 483, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/select2-rails-4.0.3/vendor/assets/stylesheets/select2.css */
+.select2-container--classic.select2-container--open .select2-dropdown {
+  border-color: #5897fb;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker {
+  -webkit-box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.506);
+          box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.506);
+  background: #fff;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 8px;
+  padding-left: 0;
+  padding-top: 2px;
+  position: absolute;
+  z-index: 9999;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: none;
+}
+
+/* line 19, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_rtl {
+  padding: 8px 0 8px 8px;
+}
+
+/* line 23, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 75px;
+  height: 210px;
+  background: transparent;
+  border: none;
+}
+
+/*For IE8 or lower*/
+/* line 34, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker button {
+  border: none !important;
+}
+
+/* line 38, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 48, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_noselect::-moz-selection {
+  background: transparent;
+}
+.xdsoft_noselect::selection {
+  background: transparent;
+}
+
+/* line 49, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_noselect::-moz-selection {
+  background: transparent;
+}
+
+/* line 51, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_inline {
+  display: inline-block;
+  position: static;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 57, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 64, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_datepicker, .xdsoft_datetimepicker .xdsoft_timepicker {
+  display: none;
+}
+
+/* line 68, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_datepicker.active, .xdsoft_datetimepicker .xdsoft_timepicker.active {
+  display: block;
+}
+
+/* line 72, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_datepicker {
+  width: 224px;
+  float: left;
+  margin-left: 8px;
+}
+
+/* line 77, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_rtl .xdsoft_datepicker {
+  float: right;
+  margin-right: 8px;
+  margin-left: 0;
+}
+
+/* line 83, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_showweeks .xdsoft_datepicker {
+  width: 256px;
+}
+
+/* line 87, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_timepicker {
+  width: 58px;
+  float: left;
+  text-align: center;
+  margin-left: 8px;
+  margin-top: 0;
+}
+
+/* line 94, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_rtl .xdsoft_timepicker {
+  float: right;
+  margin-right: 8px;
+  margin-left: 0;
+}
+
+/* line 100, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_datepicker.active + .xdsoft_timepicker {
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+/* line 105, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_mounthpicker {
+  position: relative;
+  text-align: center;
+}
+
+/* line 110, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label i,
+.xdsoft_datetimepicker .xdsoft_prev,
+.xdsoft_datetimepicker .xdsoft_next,
+.xdsoft_datetimepicker .xdsoft_today_button {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAeCAYAAADaW7vzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0NBRjI1NjM0M0UwMTFFNDk4NkFGMzJFQkQzQjEwRUIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0NBRjI1NjQ0M0UwMTFFNDk4NkFGMzJFQkQzQjEwRUIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDQ0FGMjU2MTQzRTAxMUU0OTg2QUYzMkVCRDNCMTBFQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDQ0FGMjU2MjQzRTAxMUU0OTg2QUYzMkVCRDNCMTBFQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoNEP54AAAIOSURBVHja7Jq9TsMwEMcxrZD4WpBYeKUCe+kTMCACHZh4BFfHO/AAIHZGFhYkBBsSEqxsLCAgXKhbXYOTxh9pfJVP+qutnZ5s/5Lz2Y5I03QhWji2GIcgAokWgfCxNvcOCCGKqiSqhUp0laHOne05vdEyGMfkdxJDVjgwDlEQgYQBgx+ULJaWSXXS6r/ER5FBVR8VfGftTKcITNs+a1XpcFoExREIDF14AVIFxgQUS+h520cdud6wNkC0UBw6BCO/HoCYwBhD8QCkQ/x1mwDyD4plh4D6DDV0TAGyo4HcawLIBBSLDkHeH0Mg2yVP3l4TQMZQDDsEOl/MgHQqhMNuE0D+oBh0CIr8MAKyazBH9WyBuKxDWgbXfjNf32TZ1KWm/Ap1oSk/R53UtQ5xTh3LUlMmT8gt6g51Q9p+SobxgJQ/qmsfZhWywGFSl0yBjCLJCMgXail3b7+rumdVJ2YRss4cN+r6qAHDkPWjPjdJCF4n9RmAD/V9A/Wp4NQassDjwlB6XBiCxcJQWmZZb8THFilfy/lfrTvLghq2TqTHrRMTKNJ0sIhdo15RT+RpyWwFdY96UZ/LdQKBGjcXpcc1AlSFEfLmouD+1knuxBDUVrvOBmoOC/rEcN7OQxKVeJTCiAdUzUJhA2Oez9QTkp72OTVcxDcXY8iKNkxGAJXmJCOQwOa6dhyXsOa6XwEGAKdeb5ET3rQdAAAAAElFTkSuQmCC);
+}
+
+/* line 117, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label i {
+  opacity: 0.5;
+  background-position: -92px -19px;
+  display: inline-block;
+  width: 9px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+/* line 126, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_prev {
+  float: left;
+  background-position: -20px 0;
+}
+
+/* line 130, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_today_button {
+  float: left;
+  background-position: -70px 0;
+  margin-left: 5px;
+}
+
+/* line 136, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_next {
+  float: right;
+  background-position: 0 0;
+}
+
+/* line 141, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_next,
+.xdsoft_datetimepicker .xdsoft_prev,
+.xdsoft_datetimepicker .xdsoft_today_button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 0 none;
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  outline: medium none;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 20px;
+  min-width: 0;
+}
+
+/* line 162, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_prev,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_next {
+  float: none;
+  background-position: -40px -15px;
+  height: 15px;
+  width: 30px;
+  display: block;
+  margin-left: 14px;
+  margin-top: 7px;
+}
+
+/* line 172, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_rtl .xdsoft_timepicker .xdsoft_prev,
+.xdsoft_datetimepicker.xdsoft_rtl .xdsoft_timepicker .xdsoft_next {
+  float: none;
+  margin-left: 0;
+  margin-right: 14px;
+}
+
+/* line 179, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_prev {
+  background-position: -40px 0;
+  margin-bottom: 7px;
+  margin-top: 0;
+}
+
+/* line 185, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
+  height: 151px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 191, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div {
+  background: #f5f5f5;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  border-collapse: collapse;
+  cursor: pointer;
+  border-bottom-width: 0;
+  height: 25px;
+  line-height: 25px;
+}
+
+/* line 204, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:first-child {
+  border-top-width: 0;
+}
+
+/* line 208, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_today_button:hover,
+.xdsoft_datetimepicker .xdsoft_next:hover,
+.xdsoft_datetimepicker .xdsoft_prev:hover {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/* line 215, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label {
+  display: inline;
+  position: relative;
+  z-index: 9999;
+  margin: 0;
+  padding: 5px 3px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  float: left;
+  width: 182px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 231, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label:hover > span {
+  text-decoration: underline;
+}
+
+/* line 235, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label:hover i {
+  opacity: 1.0;
+}
+
+/* line 239, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select {
+  border: 1px solid #ccc;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  z-index: 101;
+  display: none;
+  background: #fff;
+  max-height: 160px;
+  overflow-y: hidden;
+}
+
+/* line 251, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select.xdsoft_monthselect {
+  right: -7px;
+}
+
+/* line 252, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select.xdsoft_yearselect {
+  right: 2px;
+}
+
+/* line 253, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
+  color: #fff;
+  background: #ff8000;
+}
+
+/* line 258, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option {
+  padding: 2px 10px 2px 5px;
+  text-decoration: none !important;
+}
+
+/* line 263, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
+  background: #33aaff;
+  -webkit-box-shadow: #178fe5 0 1px 3px 0 inset;
+          box-shadow: #178fe5 0 1px 3px 0 inset;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* line 270, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_month {
+  width: 100px;
+  text-align: right;
+}
+
+/* line 275, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar {
+  clear: both;
+}
+
+/* line 279, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_year {
+  width: 48px;
+  margin-left: 5px;
+}
+
+/* line 284, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* line 290, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td > div {
+  padding-right: 5px;
+}
+
+/* line 294, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar th {
+  height: 25px;
+}
+
+/* line 298, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td, .xdsoft_datetimepicker .xdsoft_calendar th {
+  width: 14.2857142%;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #666;
+  font-size: 12px;
+  text-align: right;
+  vertical-align: middle;
+  padding: 0;
+  border-collapse: collapse;
+  cursor: pointer;
+  height: 25px;
+}
+
+/* line 311, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_showweeks .xdsoft_calendar td, .xdsoft_datetimepicker.xdsoft_showweeks .xdsoft_calendar th {
+  width: 12.5%;
+}
+
+/* line 315, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar th {
+  background: #f1f1f1;
+}
+
+/* line 319, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
+  color: #33aaff;
+}
+
+/* line 323, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_highlighted_default {
+  background: #ffe9d2;
+  -webkit-box-shadow: #ffb871 0 1px 4px 0 inset;
+          box-shadow: #ffb871 0 1px 4px 0 inset;
+  color: #000;
+}
+
+/* line 328, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_highlighted_mint {
+  background: #c1ffc9;
+  -webkit-box-shadow: #00dd1c 0 1px 4px 0 inset;
+          box-shadow: #00dd1c 0 1px 4px 0 inset;
+  color: #000;
+}
+
+/* line 334, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  background: #33aaff;
+  -webkit-box-shadow: #178fe5 0 1px 3px 0 inset;
+          box-shadow: #178fe5 0 1px 3px 0 inset;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* line 343, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_other_month,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_disabled,
+.xdsoft_datetimepicker .xdsoft_time_box > div > div.xdsoft_disabled {
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  cursor: default;
+}
+
+/* line 351, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_other_month.xdsoft_disabled {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+}
+
+/* line 356, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #fff !important;
+  background: #ff8000 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+/* line 363, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current.xdsoft_disabled:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current.xdsoft_disabled:hover {
+  background: #33aaff !important;
+  -webkit-box-shadow: #178fe5 0 1px 3px 0 inset !important;
+          box-shadow: #178fe5 0 1px 3px 0 inset !important;
+  color: #fff !important;
+}
+
+/* line 370, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_disabled:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_disabled:hover {
+  color: inherit	!important;
+  background: inherit !important;
+  -webkit-box-shadow: inherit !important;
+          box-shadow: inherit !important;
+}
+
+/* line 377, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_calendar th {
+  font-weight: 700;
+  text-align: center;
+  color: #999;
+  cursor: default;
+}
+
+/* line 384, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_copyright {
+  color: #ccc !important;
+  font-size: 10px;
+  clear: both;
+  float: none;
+  margin-left: 8px;
+}
+
+/* line 392, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_copyright a {
+  color: #eee !important;
+}
+
+/* line 393, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_copyright a:hover {
+  color: #aaa !important;
+}
+
+/* line 395, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_time_box {
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+/* line 399, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_scrollbar > .xdsoft_scroller {
+  background: #ccc !important;
+  height: 20px;
+  border-radius: 3px;
+}
+
+/* line 404, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_scrollbar {
+  position: absolute;
+  width: 7px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+/* line 412, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_rtl .xdsoft_scrollbar {
+  left: 0;
+  right: auto;
+}
+
+/* line 416, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_scroller_box {
+  position: relative;
+}
+
+/* line 420, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark {
+  -webkit-box-shadow: 0 5px 15px -5px rgba(255, 255, 255, 0.506);
+          box-shadow: 0 5px 15px -5px rgba(255, 255, 255, 0.506);
+  background: #000;
+  border-bottom: 1px solid #444;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-top: 1px solid #333;
+  color: #ccc;
+}
+
+/* line 430, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_timepicker .xdsoft_time_box {
+  border-bottom: 1px solid #222;
+}
+
+/* line 433, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_timepicker .xdsoft_time_box > div > div {
+  background: #0a0a0a;
+  border-top: 1px solid #222;
+  color: #999;
+}
+
+/* line 439, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_label {
+  background-color: #000;
+}
+
+/* line 442, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_label > .xdsoft_select {
+  border: 1px solid #333;
+  background: #000;
+}
+
+/* line 447, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
+  color: #000;
+  background: #007fff;
+}
+
+/* line 452, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
+  background: #cc5500;
+  -webkit-box-shadow: #b03e00 0 1px 3px 0 inset;
+          box-shadow: #b03e00 0 1px 3px 0 inset;
+  color: #000;
+}
+
+/* line 458, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_label i,
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_prev,
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_next,
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_today_button {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAeCAYAAADaW7vzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUExQUUzOTA0M0UyMTFFNDlBM0FFQTJENTExRDVBODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUExQUUzOTE0M0UyMTFFNDlBM0FFQTJENTExRDVBODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQTFBRTM4RTQzRTIxMUU0OUEzQUVBMkQ1MTFENUE4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQTFBRTM4RjQzRTIxMUU0OUEzQUVBMkQ1MTFENUE4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pp0VxGEAAAIASURBVHja7JrNSgMxEMebtgh+3MSLr1T1Xn2CHoSKB08+QmR8Bx9A8e7RixdB9CKCoNdexIugxFlJa7rNZneTbLIpM/CnNLsdMvNjM8l0mRCiQ9Ye61IKCAgZAUnH+mU3MMZaHYChBnJUDzWOFZdVfc5+ZFLbrWDeXPwbxIqrLLfaeS0hEBVGIRQCEiZoHQwtlGSByCCdYBl8g8egTTAWoKQMRBRBcZxYlhzhKegqMOageErsCHVkk3hXIFooDgHB1KkHIHVgzKB4ADJQ/A1jAFmAYhkQqA5TOBtocrKrgXwQA8gcFIuAIO8sQSA7hidvPwaQGZSaAYHOUWJABhWWw2EMIH9QagQERU4SArJXo0ZZL18uvaxejXt/Em8xjVBXmvFr1KVm/AJ10tRe2XnraNqaJvKE3KHuUbfK1E+VHB0q40/y3sdQSxY4FHWeKJCunP8UyDdqJZenT3ntVV5jIYCAh20vT7ioP8tpf6E2lfEMwERe+whV1MHjwZB7PBiCxcGQWwKZKD62lfGNnP/1poFAA60T7rF1UgcKd2id3KDeUS+oLWV8DfWAepOfq00CgQabi9zjcgJVYVD7PVzQUAUGAQkbNJTBICDhgwYTjDYD6XeW08ZKh+A4pYkzenOxXUbvZcWz7E8ykRMnIHGX1XPl+1m2vPYpL+2qdb8CDAARlKFEz/ZVkAAAAABJRU5ErkJggg==);
+}
+
+/* line 465, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar td,
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar th {
+  background: #0a0a0a;
+  border: 1px solid #222;
+  color: #999;
+}
+
+/* line 472, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar th {
+  background: #0e0e0e;
+}
+
+/* line 476, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar td.xdsoft_today {
+  color: #cc5500;
+}
+
+/* line 480, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar td.xdsoft_highlighted_default {
+  background: #ffe9d2;
+  -webkit-box-shadow: #ffb871 0 1px 4px 0 inset;
+          box-shadow: #ffb871 0 1px 4px 0 inset;
+  color: #000;
+}
+
+/* line 485, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar td.xdsoft_highlighted_mint {
+  background: #c1ffc9;
+  -webkit-box-shadow: #00dd1c 0 1px 4px 0 inset;
+          box-shadow: #00dd1c 0 1px 4px 0 inset;
+  color: #000;
+}
+
+/* line 491, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  background: #cc5500;
+  -webkit-box-shadow: #b03e00 0 1px 3px 0 inset;
+          box-shadow: #b03e00 0 1px 3px 0 inset;
+  color: #000;
+}
+
+/* line 499, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #000 !important;
+  background: #007fff !important;
+}
+
+/* line 505, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_calendar th {
+  color: #666;
+}
+
+/* line 509, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_copyright {
+  color: #333 !important;
+}
+
+/* line 510, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_copyright a {
+  color: #111 !important;
+}
+
+/* line 511, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker.xdsoft_dark .xdsoft_copyright a:hover {
+  color: #555 !important;
+}
+
+/* line 513, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_dark .xdsoft_time_box {
+  border: 1px solid #333;
+}
+
+/* line 517, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_dark .xdsoft_scrollbar > .xdsoft_scroller {
+  background: #333 !important;
+}
+
+/* line 520, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .xdsoft_save_selected {
+  display: block;
+  border: 1px solid #dddddd !important;
+  margin-top: 5px;
+  width: 100%;
+  color: #454551;
+  font-size: 13px;
+}
+
+/* line 528, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .blue-gradient-button {
+  font-family: "museo-sans", "Book Antiqua", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #82878c;
+  height: 28px;
+  position: relative;
+  padding: 4px 17px 4px 33px;
+  border: 1px solid #d7d8da;
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(73%, #f4f8fa));
+  background: linear-gradient(to bottom, #fff 0%, #f4f8fa 73%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f4f8fa',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 552, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/xdan-datetimepicker-rails-2.5.4/app/assets/stylesheets/jquery.xdan.datetimepicker.css */
+.xdsoft_datetimepicker .blue-gradient-button:hover, .xdsoft_datetimepicker .blue-gradient-button:focus, .xdsoft_datetimepicker .blue-gradient-button:hover span, .xdsoft_datetimepicker .blue-gradient-button:focus span {
+  color: #454551;
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4f8fa), color-stop(73%, #FFF));
+  background: linear-gradient(to bottom, #f4f8fa 0%, #FFF 73%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f8fa', endColorstr='#FFF',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 7, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-button {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#f5c86c" d="M2 2h8v8H2z"/><path fill="#f56c6c" d="M12 2h8v8h-8z"/><path fill="#f46ac6" d="M22 2h8v8h-8z"/><path fill="#c3f167" d="M2 12h8v8H2z"/><path fill="#f3f3f3" d="M12 12h8v8h-8z"/><path fill="#c76cf5" d="M22 12h8v8h-8z"/><path fill="#69e369" d="M2 22h8v8H2z"/><path fill="#6bc6f4" d="M12 22h8v8h-8z"/><path fill="#6b6bf5" d="M22 22h8v8h-8z"/><path d="M9 3v6H3V3h6m1-1H2v8h8V2zm9 1v6h-6V3h6m1-1h-8v8h8V2zm9 1v6h-6V3h6m1-1h-8v8h8V2zM9 13v6H3v-6h6m1-1H2v8h8v-8zm9 1v6h-6v-6h6m1-1h-8v8h8v-8zm9 1v6h-6v-6h6m1-1h-8v8h8v-8zM9 23v6H3v-6h6m1-1H2v8h8v-8zm9 1v6h-6v-6h6m1-1h-8v8h8v-8zm9 1v6h-6v-6h6m1-1h-8v8h8v-8z" opacity=".25"/></svg>') center center no-repeat;
+  background-size: cover;
+  /*background: url(palette-color-picker-icon.svg) center center no-repeat;*/
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 1px #bbb;
+          box-shadow: 0 0 0 1px #bbb;
+  /*outline: 1px solid $cpfp-border;*/
+  border: 2px solid #fff;
+}
+
+/* line 24, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble {
+  display: none;
+  margin: 12px 0;
+  position: absolute;
+  bottom: 100%;
+  width: 220px;
+  padding: 10px 8px 8px 8px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background-color: #fff;
+}
+/* line 36, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble:after, .palette-color-picker-bubble:before {
+  top: 100%;
+  left: 14px;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+/* line 47, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble:after {
+  border-color: transparent;
+  border-top-color: #fff;
+  border-width: 8px;
+  margin-left: -8px;
+}
+/* line 53, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble:before {
+  border-color: transparent;
+  border-top-color: #bbb;
+  border-width: 9px;
+  margin-left: -9px;
+}
+/* line 61, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.downside {
+  bottom: auto;
+  top: 100%;
+}
+/* line 66, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.downside:after, .palette-color-picker-bubble.downside:before {
+  top: auto;
+  bottom: 100%;
+}
+/* line 70, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.downside:after {
+  border-top-color: transparent;
+  border-bottom-color: #fff;
+}
+/* line 74, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.downside:before {
+  border-top-color: transparent;
+  border-bottom-color: #bbb;
+}
+/* line 80, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble .swatch {
+  position: relative;
+  display: inline-block;
+  font: 0/0 a;
+  width: 12.66%;
+  padding-top: 11.00%;
+  margin: 1% 2%;
+  outline: 1px solid #bbb;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+}
+/* line 94, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble .swatch.active {
+  outline-color: #000;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+/* line 102, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble .swatch.clear {
+  background-color: #fff;
+}
+/* line 104, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble .swatch.clear:before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: -1px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background-color: #e00;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+/* line 122, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.double .swatch {
+  width: 29.30%;
+  padding-top: 11.00%;
+  margin: 1% 2%;
+}
+/* line 127, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.double .swatch.clear:before {
+  -webkit-transform: rotate(22.5deg);
+          transform: rotate(22.5deg);
+}
+/* line 136, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.wide .swatch {
+  width: 96.2%;
+  padding-top: 11.00%;
+  margin: 1% 2%;
+}
+/* line 140, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.wide .swatch.clear {
+  width: 12.66%;
+}
+/* line 147, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.force-left {
+  left: -178px;
+}
+/* line 149, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/vendor/assets/jquery_palette_color_picker/palette-color-picker.scss */
+.palette-color-picker-bubble.force-left:after, .palette-color-picker-bubble.force-left:before {
+  left: 188px;
+}
+
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/numeric-range-filter.scss */
+.filter_numeric_range_filter input[type=number] {
+  width: 96px;
+  padding-right: 0;
+}
+/* line 7, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/numeric-range-filter.scss */
+.filter_numeric_range_filter .separator {
+  display: inline-block;
+  width: 12px;
+  text-align: center;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/color-picker.scss */
+.palette-color-picker-bubble {
+  padding: 14px 0 14px 16px;
+  z-index: 10;
+}
+
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/date-time-picker.scss */
+input[type=text].date-time-picker-input {
+  width: 110px;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/select2.scss */
+.select2-search__field {
+  line-height: 20px;
+}
+
+/* line 4, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/selected-list.scss */
+.selected-list-container {
+  display: inline-block;
+  width: 80%;
+}
+/* line 8, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/selected-list.scss */
+.selected-list-container .selected-item {
+  height: 25px;
+}
+
+/* line 13, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/selected-list.scss */
+.selected-item {
+  display: table;
+  cursor: pointer;
+}
+/* line 17, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/selected-list.scss */
+.selected-item::before {
+  color: #aaa;
+  content: '\2716\00a0\00a0';
+}
+/* line 23, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/inputs/selected-list.scss */
+.selected-item:hover::before {
+  color: #333;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/addons/toggle_bool.scss */
+.toggle-bool-switches-container {
+  text-align: center;
+}
+/* line 4, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/addons/toggle_bool.scss */
+.toggle-bool-switches-container .toggle-bool-switch {
+  cursor: pointer;
+}
+/* line 7, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/addons/toggle_bool.scss */
+.toggle-bool-switches-container .toggle-bool-switch.hidden-switch {
+  display: none;
+}
+
+/* line 15, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/activeadmin_addons-1.2.0/app/assets/stylesheets/activeadmin_addons/all.scss */
+li.error .select2-selection {
+  border-color: #932419;
+}
+@charset "UTF-8";
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes scale-up {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/* line 3, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 9, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+body {
+  margin: 0;
+}
+
+/* line 13, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 28, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/* line 35, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 40, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/* line 44, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+template,
+[hidden] {
+  display: none;
+}
+
+/* line 49, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+/* line 54, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* line 59, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/* line 65, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/* line 70, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* line 75, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 79, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 84, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/* line 89, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 93, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 101, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 105, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 109, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+img {
+  border-style: none;
+}
+
+/* line 113, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 117, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 125, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 129, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* line 135, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+/* line 143, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 147, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+button,
+input {
+  overflow: visible;
+}
+
+/* line 152, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 157, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* line 164, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* line 172, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* line 179, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 185, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 194, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 198, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 204, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 209, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+/* line 214, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 219, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/* line 224, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_reset.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_core.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 7, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_core.scss */
+html,
+body {
+  min-height: 100%;
+}
+
+/* line 12, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_core.scss */
+body {
+  background-color: #eeeeee;
+  color: #3f3f3f;
+  font: normal 16px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-smoothing: antialiased;
+}
+
+/* line 19, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_core.scss */
+a {
+  color: inherit;
+}
+
+/* line 23, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_core.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: bold 1em -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.3;
+}
+
+/* line 33, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_core.scss */
+::-moz-selection {
+  background-color: rgba(77, 82, 86, 0.5);
+  color: #ffffff;
+}
+::selection {
+  background-color: rgba(77, 82, 86, 0.5);
+  color: #ffffff;
+}
+
+/* line 39, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_core.scss */
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_box.scss */
+div.active_admin_comment, form fieldset.inputs, .index_as_blog .banner, .ui-dialog, .panel,
+.sidebar_section, table.index_table, body.logged_out #active_admin_content {
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_button.scss */
+a.button,
+a.button:link,
+a.button:visited,
+a.clear_filters_btn,
+.cancel a,
+input[type='submit'],
+input[type='button'],
+button, .dropdown_menu_button:not(.disabled) {
+  background-color: #f9f9f9;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* line 9, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_button.scss */
+a.button:focus,
+a.clear_filters_btn:focus,
+.cancel a:focus,
+input[type='submit']:focus,
+input[type='button']:focus,
+button:focus, .dropdown_menu_button:focus:not(.disabled), a.button:hover,
+a.clear_filters_btn:hover,
+.cancel a:hover,
+input[type='submit']:hover,
+input[type='button']:hover,
+button:hover, .dropdown_menu_button:hover:not(.disabled) {
+  background: #ffffff;
+}
+/* line 14, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_button.scss */
+a.button:focus,
+a.clear_filters_btn:focus,
+.cancel a:focus,
+input[type='submit']:focus,
+input[type='button']:focus,
+button:focus, .dropdown_menu_button:focus:not(.disabled) {
+  -webkit-box-shadow: inset 0 0 3px #cccccc;
+          box-shadow: inset 0 0 3px #cccccc;
+}
+
+/* line 19, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_button.scss */
+input[type='submit'], .ui-dialog .ui-dialog-buttonpane button:first-of-type {
+  background-color: #7a7d80;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7a7d80), to(#4d5256));
+  background-image: linear-gradient(to bottom, #7a7d80, #4d5256);
+  border-color: #3a3e41;
+  color: #ffffff;
+}
+/* line 25, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_button.scss */
+input[type='submit']:hover, .ui-dialog .ui-dialog-buttonpane button:hover:first-of-type {
+  background: #3e4245;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_drag.scss */
+.drag {
+  cursor: move;
+}
+/* line 4, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_drag.scss */
+.drag img {
+  opacity: 0.5;
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms;
+}
+/* line 9, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_drag.scss */
+.drag:hover img {
+  opacity: 1;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_header.scss */
+form legend span, .index_as_blog .banner h3, .ui-dialog .ui-dialog-titlebar, .panel h3,
+.sidebar_section h3, table.index_table thead th, .tabs .nav-tabs, body.logged_out h2 {
+  background-color: #f2f2f2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e6e6e6));
+  background-image: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+  border-bottom: 1px solid #cccccc;
+  padding: 12px 15px;
+}
+@media only screen and (max-width: 480px) {
+  /* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_header.scss */
+  form legend span, .index_as_blog .banner h3, .ui-dialog .ui-dialog-titlebar, .panel h3,
+  .sidebar_section h3, table.index_table thead th, .tabs .nav-tabs, body.logged_out h2 {
+    text-align: center;
+  }
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_input.scss */
+form input[type='text'],
+form input[type='password'],
+form input[type='email'],
+form input[type='number'],
+form input[type='url'],
+form input[type='tel'],
+form input[type='date'],
+form textarea {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  border: 1px solid rgba(204, 204, 204, 0.75);
+  border-radius: 4px;
+  outline: 0;
+  padding: 10px 12px;
+  -webkit-transition: border-color 250ms, -webkit-box-shadow 250ms;
+  transition: border-color 250ms, -webkit-box-shadow 250ms;
+  transition: border-color 250ms, box-shadow 250ms;
+  transition: border-color 250ms, box-shadow 250ms, -webkit-box-shadow 250ms;
+  width: 100%;
+}
+/* line 12, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_input.scss */
+form input[type='text']:focus,
+form input[type='password']:focus,
+form input[type='email']:focus,
+form input[type='number']:focus,
+form input[type='url']:focus,
+form input[type='tel']:focus,
+form input[type='date']:focus,
+form textarea:focus {
+  border-color: rgba(77, 82, 86, 0.5);
+  -webkit-box-shadow: 0 0 5px rgba(77, 82, 86, 0.25);
+          box-shadow: 0 0 5px rgba(77, 82, 86, 0.25);
+}
+/* line 16, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_input.scss */
+form input[type='text']:focus ~ .inline-hints,
+form input[type='password']:focus ~ .inline-hints,
+form input[type='email']:focus ~ .inline-hints,
+form input[type='number']:focus ~ .inline-hints,
+form input[type='url']:focus ~ .inline-hints,
+form input[type='tel']:focus ~ .inline-hints,
+form input[type='date']:focus ~ .inline-hints,
+form textarea:focus ~ .inline-hints {
+  color: #3f3f3f;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.menu-button {
+  background: none !important;
+  border: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  padding: 0;
+}
+/* line 11, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.menu-button i {
+  display: inline-block;
+  width: 100%;
+}
+/* line 15, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.menu-button i, .menu-button i:before, .menu-button i:after {
+  background-color: currentColor;
+  border-radius: 500rem;
+  height: 4px;
+  left: 0;
+  position: relative;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  width: 20px;
+}
+/* line 27, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.menu-button i:before, .menu-button i:after {
+  content: '';
+  position: absolute;
+}
+/* line 33, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.menu-button i:before {
+  top: -8px;
+}
+/* line 37, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.menu-button i:after {
+  bottom: -8px;
+}
+/* line 43, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.opened-menu .menu-button i {
+  background-color: transparent;
+}
+/* line 46, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.opened-menu .menu-button i:before {
+  top: 0;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+/* line 51, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_menu-button.scss */
+.opened-menu .menu-button i:after {
+  bottom: 0;
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/atoms/_turbolinks.scss */
+.turbolinks-progress-bar {
+  background-color: #4d5256;
+  border-radius: 0 500rem 500rem 0;
+  bottom: 0;
+  position: fixed;
+  height: 3px;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_footer.scss */
+#footer.footer {
+  background-color: #ffffff;
+  border-top: 1px solid #cccccc;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 20px;
+  padding: 20px 30px;
+  text-align: center;
+}
+/* line 11, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_footer.scss */
+#footer.footer p {
+  margin: 0;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(77, 82, 86, 0.95);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  height: 50px;
+  position: fixed;
+  text-shadow: #000000 0 1px 0;
+  top: 0;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 10;
+}
+/* line 15, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .site_title {
+  font-weight: bold;
+  margin: 0 20px 0 0;
+  padding: 0 30px;
+}
+/* line 21, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header #site_title_image {
+  display: block;
+  height: 30px;
+}
+/* line 27, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item,
+#header.header .header-item ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 33, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  -webkit-transition: background 250ms, color 250ms;
+  transition: background 250ms, color 250ms;
+}
+/* line 39, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item li {
+  font-size: 14px;
+  list-style: none;
+  position: relative;
+}
+/* line 45, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item > li {
+  display: inline-block;
+  margin: 10px 5px 10px 0;
+}
+/* line 49, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item > li.current > a, #header.header .header-item > li:hover > a {
+  background: #7a7d80;
+  color: #ffffff;
+}
+/* line 55, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item > li > a {
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+/* line 61, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item > li.has_nested > a:before {
+  border: 3px solid transparent;
+  border-bottom: 0;
+  border-top-color: rgba(255, 255, 255, 0.5);
+}
+/* line 67, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item > li.has_nested:hover > a:before, #header.header .header-item > li.has_nested.current > a:before {
+  border-left-color: transparent;
+  border-top-color: #4d5256;
+}
+/* line 74, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item > li .has_nested > ul {
+  right: -100%;
+  top: 0;
+}
+/* line 80, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item ul {
+  background: #7a7d80;
+  border-radius: 0 4px 4px 4px;
+  height: 0;
+  min-width: 175px;
+  opacity: 0;
+  padding: 5px 0;
+  position: absolute;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transition: opacity 250ms, -webkit-transform 250ms;
+  transition: opacity 250ms, -webkit-transform 250ms;
+  transition: opacity 250ms, transform 250ms;
+  transition: opacity 250ms, transform 250ms, -webkit-transform 250ms;
+  z-index: 11;
+}
+/* line 93, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item ul a {
+  display: block;
+  padding: 5px 10px;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+/* line 99, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item ul li:hover > a,
+#header.header .header-item ul a:hover {
+  background-color: rgba(77, 82, 86, 0.5);
+  color: #ffffff;
+}
+/* line 107, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item .has_nested:hover > ul {
+  height: auto;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/* line 113, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item .has_nested > a {
+  padding-right: 23px;
+  position: relative;
+}
+/* line 117, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item .has_nested > a:before {
+  border: 3px solid transparent;
+  border-right: 0;
+  border-left-color: rgba(255, 255, 255, 0.5);
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transition: border-color 250ms;
+  transition: border-color 250ms;
+  right: 10px;
+}
+/* line 129, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .header-item .has_nested:hover > a:before, #header.header .header-item .has_nested.current > a:before {
+  border-left-color: #4d5256;
+}
+/* line 136, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header #tabs {
+  width: 100%;
+}
+/* line 140, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header #utility_nav {
+  color: #cccccc;
+  margin: 0;
+  padding: 0 20px 0 0;
+  text-align: right;
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+  white-space: nowrap;
+  width: 100%;
+}
+/* line 149, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header #utility_nav a {
+  text-decoration: none;
+}
+/* line 152, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header #utility_nav a:hover {
+  color: #ffffff;
+}
+/* line 157, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header #utility_nav li {
+  display: inline;
+}
+/* line 160, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header #utility_nav li:not(#current_user) {
+  opacity: 0.75;
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms;
+}
+/* line 164, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header #utility_nav li:not(#current_user):hover {
+  opacity: 1;
+}
+/* line 171, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+#header.header .menu-button {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  /* line 177, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header #tabs,
+  #header.header #utility_nav {
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    -webkit-transform: translateY(calc(-100% - 90px));
+            transform: translateY(calc(-100% - 90px));
+    -webkit-transition: -webkit-transform 250ms;
+    transition: -webkit-transform 250ms;
+    transition: transform 250ms;
+    transition: transform 250ms, -webkit-transform 250ms;
+  }
+  /* line 187, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header #utility_nav {
+    background-color: #4d5256;
+    height: 40px;
+    padding: 11px 0;
+    text-align: center;
+    top: 50px;
+  }
+  /* line 195, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header #tabs {
+    background-color: rgba(77, 82, 86, 0.95);
+    max-height: calc(100vh - 85px);
+    overflow: auto;
+    top: 90px;
+  }
+  /* line 201, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header #tabs li {
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 5px 15px;
+    width: 100%;
+  }
+  /* line 208, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header #tabs li + li {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  /* line 213, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header #tabs a {
+    display: block;
+  }
+  /* line 218, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header .site_title {
+    padding: 0 15px;
+  }
+  /* line 222, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header .header-item ul {
+    background: transparent;
+    height: auto;
+    max-width: 100%;
+    opacity: 1;
+    margin-left: 5px;
+    position: static;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    width: 100%;
+  }
+  /* line 232, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header .header-item ul li {
+    border: 0 !important;
+    padding: 0 !important;
+  }
+  /* line 236, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header .header-item ul li a:before {
+    display: inline;
+    content: '↳';
+    margin-right: 5px;
+  }
+  /* line 244, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  #header.header .menu-button {
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: -5px;
+  }
+  /* line 252, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_header.scss */
+  .opened-menu #header.header #tabs,
+  .opened-menu #header.header #utility_nav {
+    display: block;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+#active_admin_content {
+  padding: 30px 30px 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+#active_admin_content:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 7, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+#active_admin_content #main_content_wrapper {
+  float: left;
+  width: 100%;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+#active_admin_content #main_content_wrapper:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 15, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+#active_admin_content.with_sidebar #main_content {
+  margin-right: 300px;
+}
+/* line 19, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+#active_admin_content #sidebar {
+  float: left;
+  margin-left: -270px;
+  position: relative;
+  width: 270px;
+  z-index: 1;
+}
+/* line 26, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+#active_admin_content #sidebar .panel_contents {
+  padding: 15px;
+}
+/* line 29, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+#active_admin_content #sidebar .panel_contents > form {
+  margin: -15px;
+}
+/* line 33, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+#active_admin_content #sidebar .panel_contents h4 {
+  margin: 0;
+}
+/* line 37, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+#active_admin_content #sidebar .panel_contents ul {
+  margin: 0;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+  #active_admin_content {
+    padding: 15px 15px 0;
+  }
+  /* line 48, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+  #active_admin_content.with_sidebar #main_content {
+    margin-right: 0;
+  }
+  /* line 52, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+  #active_admin_content #main_content_wrapper {
+    float: none;
+  }
+  /* line 56, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_main.scss */
+  #active_admin_content #sidebar {
+    float: none;
+    margin-left: 0;
+    margin-top: 40px;
+    width: 100%;
+  }
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: table;
+  margin-top: 50px;
+  padding: 20px 30px;
+  width: 100%;
+}
+/* line 10, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar #page_title {
+  font-size: 42px;
+  font-weight: 100;
+  line-height: 1;
+  margin: 0;
+}
+/* line 17, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar #titlebar_left,
+.title_bar #titlebar_right {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 23, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar #titlebar_right {
+  text-align: right;
+}
+/* line 26, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar #titlebar_right .action_item {
+  display: inline-block;
+}
+/* line 29, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar #titlebar_right .action_item a {
+  border: 2px solid rgba(77, 82, 86, 0.25);
+  border-radius: 4px;
+  color: rgba(77, 82, 86, 0.75);
+  display: block;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+/* line 40, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar #titlebar_right .action_item a:hover {
+  border-color: #4d5256;
+  color: #4d5256;
+}
+/* line 48, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar .breadcrumb {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 53, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar .breadcrumb a {
+  opacity: 0.75;
+  text-decoration: none;
+}
+/* line 57, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar .breadcrumb a:hover {
+  text-decoration: underline;
+}
+/* line 62, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+.title_bar .breadcrumb .breadcrumb_sep {
+  opacity: 0.5;
+}
+@media only screen and (max-width: 768px) {
+  /* line 69, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+  .title_bar #page_title {
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    word-break: break-all;
+  }
+  /* line 74, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+  .title_bar #titlebar_left,
+  .title_bar #titlebar_right {
+    display: block;
+    text-align: center;
+  }
+  /* line 80, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+  .title_bar #titlebar_right {
+    margin-top: 10px;
+  }
+  /* line 84, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/layouts/_title-bar.scss */
+  .title_bar .action_item a {
+    margin: 2px 0;
+  }
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_blank.scss */
+.blank_slate_container {
+  text-align: center;
+}
+/* line 4, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_blank.scss */
+.blank_slate_container .blank_slate {
+  border: 1px dashed #cccccc;
+  border-radius: 4px;
+  color: rgba(63, 63, 63, 0.75);
+  display: inline-block;
+  margin-top: 80px;
+  padding: 50px 100px;
+  text-align: center;
+}
+/* line 14, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_blank.scss */
+.blank_slate_container span,
+.blank_slate_container small {
+  display: block;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 480px) {
+  /* line 22, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_blank.scss */
+  .blank_slate_container .blank_slate {
+    margin: 40px 0;
+    padding: 15px;
+  }
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_button.scss */
+a.button,
+a:link.button,
+a:visited.button,
+a.clear_filters_btn,
+.cancel a,
+input[type='submit'],
+input[type='button'],
+button {
+  display: inline-block;
+  font-size: 14px;
+  outline: 0;
+  padding: 9px 12px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 250ms, -webkit-box-shadow 250ms;
+  transition: background 250ms, -webkit-box-shadow 250ms;
+  transition: background 250ms, box-shadow 250ms;
+  transition: background 250ms, box-shadow 250ms, -webkit-box-shadow 250ms;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+}
+
+/* line 25, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_button.scss */
+a.member_link {
+  margin-right: 7px;
+  white-space: nowrap;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.comments .empty {
+  display: block;
+  margin: 20px 0;
+  opacity: 0.5;
+  text-align: center;
+}
+
+/* line 8, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+div.active_admin_comment {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* line 18, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+form.active_admin_comment li,
+form.active_admin_comment .inputs {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 25, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+form.active_admin_comment .hidden {
+  display: none;
+}
+/* line 29, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+form.active_admin_comment textarea {
+  border-color: #cccccc;
+  display: block;
+  float: none;
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 39, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.active_admin_comment_meta {
+  background-color: #f2f2f2;
+  border-right: 1px solid #cccccc;
+  padding: 15px;
+  width: 200px;
+}
+/* line 45, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.active_admin_comment_meta .active_admin_comment_author {
+  margin: 0;
+}
+/* line 49, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.active_admin_comment_meta span {
+  font-size: 12px;
+}
+/* line 53, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.active_admin_comment_meta a[data-method='delete'] {
+  border: 1px solid #a61a14;
+  border-radius: 4px;
+  color: #a61a14;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 10px;
+  opacity: 0.5;
+  padding: 2px 3px;
+  text-decoration: none;
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms;
+}
+/* line 66, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.active_admin_comment_meta a[data-method='delete']:hover {
+  opacity: 1;
+}
+
+/* line 72, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.active_admin_comment_body {
+  padding: 15px;
+}
+/* line 75, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.active_admin_comment_body p {
+  margin: 0;
+}
+/* line 78, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_comments.scss */
+.active_admin_comment_body p + p {
+  margin-top: 1em;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker {
+  background-color: rgba(77, 82, 86, 0.75);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border-radius: 4px;
+  color: #ffffff;
+  margin-top: 2px;
+}
+/* line 8, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 14, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-header,
+.ui-datepicker-calendar {
+  padding: 5px;
+  text-align: center;
+}
+
+/* line 20, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* line 24, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-title {
+  font-weight: bold;
+}
+
+/* line 28, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  cursor: pointer;
+}
+/* line 32, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-prev .ui-icon,
+.ui-datepicker-next .ui-icon {
+  display: none;
+}
+/* line 36, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-prev:before,
+.ui-datepicker-next:before {
+  border: 5px solid transparent;
+  content: '';
+  height: 0;
+  position: absolute;
+  top: 10px;
+  -webkit-transition: border-color 250ms;
+  transition: border-color 250ms;
+  width: 0;
+}
+
+/* line 48, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-prev:before {
+  border-left-width: 0;
+  border-right-color: rgba(255, 255, 255, 0.5);
+  left: 10px;
+}
+/* line 54, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-prev:hover:before {
+  border-right-color: #ffffff;
+}
+
+/* line 60, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-next:before {
+  border-left-color: rgba(255, 255, 255, 0.5);
+  border-right-width: 0;
+  right: 10px;
+}
+/* line 66, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-next:hover:before {
+  border-left-color: #ffffff;
+}
+
+/* line 71, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-calendar {
+  font-size: 14px;
+}
+/* line 74, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-calendar a:hover {
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
+}
+/* line 78, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-calendar .ui-state-default {
+  border-radius: 4px;
+  padding: 1px 2px;
+}
+/* line 82, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-calendar .ui-state-default:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+/* line 87, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-calendar .ui-state-active {
+  background-color: #ffffff;
+  color: #4d5256;
+}
+/* line 92, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-calendar .ui-state-highlight {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #4d5256;
+}
+/* line 96, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_datepicker.scss */
+.ui-datepicker-calendar .ui-state-highlight:hover {
+  background-color: #ffffff;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu {
+  display: inline-block;
+}
+
+/* line 5, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_button {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 16px;
+  text-decoration: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+/* line 16, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_button:after {
+  border-color: currentColor transparent;
+  border-style: solid;
+  border-width: 3px 3px 0;
+  content: '';
+  display: inline-block;
+  height: 0;
+  margin-left: 10px;
+  position: relative;
+  top: -3px;
+  width: 0;
+}
+/* line 29, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_button.disabled {
+  color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+/* line 38, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_button:not(.disabled) + .dropdown_menu_list_wrapper {
+  -webkit-animation: scale-up 250ms forwards;
+          animation: scale-up 250ms forwards;
+}
+
+/* line 44, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_list_wrapper {
+  font-size: 14px;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  z-index: 20;
+}
+
+/* line 52, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_nipple {
+  background-color: #4d5256;
+  height: 6px;
+  position: absolute;
+  top: -2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 6px;
+  z-index: 21;
+}
+
+/* line 62, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_list {
+  background-color: #ffffff;
+  border: 2px solid #4d5256;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.75);
+          box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.75);
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  z-index: 22;
+}
+/* line 72, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_list li + li {
+  border-top: 1px solid #cccccc;
+}
+/* line 76, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_list a {
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
+  white-space: nowrap;
+}
+/* line 84, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_dropdown.scss */
+.dropdown_menu_list a:hover {
+  background-color: #f2f2f2;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_flash.scss */
+.flash {
+  background-color: #f2f7fb;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6eff7), to(#d9e7f3));
+  background-image: linear-gradient(to bottom, #e6eff7, #d9e7f3);
+  border: 1px solid rgba(0, 95, 178, 0.5);
+  border-width: 0 0 1px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #005fb2;
+  font-size: 90%;
+  font-weight: bold;
+  padding: 15px 30px;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  -webkit-transition: border-color 250ms;
+  transition: border-color 250ms;
+}
+/* line 15, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_flash.scss */
+.flash:hover {
+  border-color: #005fb2;
+}
+/* line 19, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_flash.scss */
+.flash.flash_notice {
+  background-color: #f2f9f6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6f3ed), to(#d9ede4));
+  background-image: linear-gradient(to bottom, #e6f3ed, #d9ede4);
+  border-color: rgba(4, 132, 75, 0.5);
+  color: #04844b;
+}
+/* line 25, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_flash.scss */
+.flash.flash_notice:hover {
+  border-color: #04844b;
+}
+/* line 30, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_flash.scss */
+.flash.flash_error,
+.flash .flash_alert {
+  background-color: #fbf4f3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6e8e8), to(#f2dddc));
+  background-image: linear-gradient(to bottom, #f6e8e8, #f2dddc);
+  border-color: rgba(166, 26, 20, 0.5);
+  color: #a61a14;
+}
+/* line 37, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_flash.scss */
+.flash.flash_error:hover,
+.flash .flash_alert:hover {
+  border-color: #a61a14;
+}
+
+/* line 4, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form ul,
+form ol,
+form li,
+form fieldset,
+form legend,
+form input,
+form select,
+form p {
+  margin: 0;
+  padding: 0;
+}
+/* line 16, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form ol,
+form li {
+  list-style: none;
+}
+/* line 21, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form fieldset {
+  border: 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+/* line 30, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form fieldset.actions {
+  margin: 0;
+}
+/* line 33, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form fieldset.actions ol {
+  margin: 0;
+  text-align: center;
+}
+/* line 38, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form fieldset.actions li {
+  display: inline-block;
+  border-top: none;
+  margin-right: 15px;
+  padding: 0;
+}
+/* line 47, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form legend {
+  display: block;
+  left: -1px;
+  position: relative;
+}
+/* line 52, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form legend,
+form legend span {
+  width: calc(100% + 2px);
+}
+/* line 57, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form legend span {
+  border: 1px solid #cccccc;
+  border-radius: 4px 4px 0 0;
+  font-weight: bold;
+  display: block;
+}
+/* line 66, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form ol {
+  margin: 10px 0;
+}
+/* line 70, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form ol > li {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.25);
+  padding: 10px 15px;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+form ol > li:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 75, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form ol > li label {
+  color: #5c5c5c;
+  float: left;
+  font-weight: bold;
+  width: 20%;
+}
+/* line 81, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form ol > li label abbr[title] {
+  border: none;
+  color: #a61a14;
+  opacity: 0.5;
+  padding-left: 2px;
+  text-decoration: none;
+}
+/* line 90, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form ol > li:last-of-type {
+  border-bottom: none;
+}
+/* line 96, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form hr {
+  background-color: rgba(204, 204, 204, 0.25);
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(77, 82, 86, 0.5)), to(transparent));
+  background-image: linear-gradient(to right, transparent, rgba(77, 82, 86, 0.5), transparent);
+  border: 0;
+  clear: both;
+  float: left;
+  height: 1px;
+  margin: 10px 0 -11px;
+  width: 100%;
+}
+/* line 108, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form input[type='text'],
+form input[type='password'],
+form input[type='email'],
+form input[type='number'],
+form input[type='url'],
+form input[type='tel'],
+form input[type='date'],
+form textarea {
+  float: right;
+  width: calc(80% - 20px);
+}
+/* line 121, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form textarea {
+  height: 100px;
+  max-height: 200px;
+  min-height: 75px;
+  resize: vertical;
+  vertical-align: top;
+}
+/* line 129, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form input[type='checkbox'] {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  background-color: #f2f2f2;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 20px;
+  outline: none;
+  position: relative;
+  -webkit-transition: border 250ms 150ms, padding 250ms;
+  transition: border 250ms 150ms, padding 250ms;
+  width: 37px;
+  vertical-align: top;
+}
+/* line 143, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form input[type='checkbox']:after {
+  background-color: #f9f9f9;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  border: 1px solid #adadad;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  content: '';
+  cursor: pointer;
+  display: block;
+  height: 20px;
+  left: -1px;
+  position: absolute;
+  right: 16px;
+  top: -1px;
+  -webkit-transition: border 250ms 150ms, left 250ms 100ms, right 150ms 175ms;
+  transition: border 250ms 150ms, left 250ms 100ms, right 150ms 175ms;
+}
+/* line 160, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form input[type='checkbox']:checked {
+  border-color: #04844b;
+  -webkit-box-shadow: inset 0 0 0 13px #04844b;
+          box-shadow: inset 0 0 0 13px #04844b;
+  padding-left: 18px;
+  -webkit-transition: border 250ms, padding 250ms 150ms, -webkit-box-shadow 250ms;
+  transition: border 250ms, padding 250ms 150ms, -webkit-box-shadow 250ms;
+  transition: border 250ms, box-shadow 250ms, padding 250ms 150ms;
+  transition: border 250ms, box-shadow 250ms, padding 250ms 150ms, -webkit-box-shadow 250ms;
+}
+/* line 166, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form input[type='checkbox']:checked:after {
+  border-color: #04844b;
+  left: 16px;
+  right: -1px;
+  -webkit-transition: border 250ms, left 150ms 250ms, right 250ms 175ms;
+  transition: border 250ms, left 150ms 250ms, right 250ms 175ms;
+}
+/* line 175, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form input[type='file'],
+form select {
+  margin-left: 20px;
+}
+/* line 183, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .date_select fieldset,
+form .time_select fieldset,
+form .datetime_select fieldset {
+  margin: 0;
+}
+/* line 186, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .date_select fieldset ol,
+form .time_select fieldset ol,
+form .datetime_select fieldset ol {
+  margin: 0 0 0 calc(20% + 20px);
+}
+/* line 190, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .date_select fieldset ol > li,
+form .time_select fieldset ol > li,
+form .datetime_select fieldset ol > li {
+  border-top: none;
+  float: left;
+  margin-right: 5px;
+  padding: 0;
+  width: auto;
+}
+/* line 197, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .date_select fieldset ol > li label,
+form .time_select fieldset ol > li label,
+form .datetime_select fieldset ol > li label {
+  display: none;
+}
+/* line 201, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .date_select fieldset ol > li select,
+form .time_select fieldset ol > li select,
+form .datetime_select fieldset ol > li select {
+  margin-left: 0;
+}
+/* line 208, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .choices {
+  margin-bottom: 0;
+}
+/* line 212, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .choices-group {
+  margin: 0 0 0 calc(20% + 20px);
+}
+/* line 216, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .choice {
+  border: 0;
+  padding: 5px 0;
+}
+/* line 220, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .choice label {
+  font-weight: normal;
+  width: 100%;
+}
+/* line 225, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .choice input[type="checkbox"] {
+  margin: -1px 5px 0 0;
+}
+/* line 230, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .hidden {
+  display: none;
+}
+/* line 235, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .inline-hints,
+form .inline-errors {
+  clear: both;
+  font-size: 14px;
+  margin: 0 0 0 calc(20% + 20px);
+  padding-top: 2px;
+}
+/* line 243, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .inline-hints {
+  color: rgba(63, 63, 63, 0.5);
+  -webkit-transition: color 250ms;
+  transition: color 250ms;
+}
+/* line 247, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .inline-hints img {
+  border-radius: 4px;
+  margin-top: 10px;
+}
+/* line 253, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .inline-errors {
+  color: #a61a14;
+}
+/* line 258, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .boolean label {
+  font-weight: normal;
+  padding-left: calc(20% + 20px);
+  width: 100%;
+}
+/* line 263, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .boolean label input[type='checkbox'] {
+  margin: -1px 5px 0 0;
+}
+/* line 267, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form .boolean label input[type='radio'] {
+  margin: 2px 5px 0 0;
+}
+@media only screen and (max-width: 480px) {
+  /* line 275, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+  form ol > li label,
+  form input[type='text'],
+  form input[type='password'],
+  form input[type='email'],
+  form input[type='number'],
+  form input[type='url'],
+  form input[type='tel'],
+  form input[type='date'],
+  form textarea {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  /* line 289, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+  form ol > li label {
+    margin-bottom: 5px;
+  }
+  /* line 293, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+  form select,
+  form input[type='file'],
+  form .date_select fieldset ol,
+  form .time_select fieldset ol,
+  form .datetime_select fieldset ol,
+  form .choices-group,
+  form .inline-hints,
+  form .inline-errors {
+    margin-left: 0;
+    width: 100%;
+  }
+  /* line 305, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+  form .boolean label {
+    padding-left: 0;
+  }
+}
+
+/* line 313, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+.sidebar_section .boolean label,
+.sidebar_section label {
+  color: rgba(63, 63, 63, 0.75);
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 0;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+/* line 324, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+.sidebar_section select {
+  margin-left: 0;
+  width: 100%;
+}
+/* line 329, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+.sidebar_section input[type='text'],
+.sidebar_section input[type='password'],
+.sidebar_section input[type='email'],
+.sidebar_section input[type='url'],
+.sidebar_section input[type='tel'],
+.sidebar_section textarea {
+  font-size: 12px;
+  padding: 2px 3px;
+  width: 100%;
+}
+
+/* line 343, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .filter_form_field {
+  padding: 10px 15px;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+form.filter_form .filter_form_field:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 348, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .filter_form_field.select_and_search select,
+form.filter_form .filter_form_field.select_and_search input[type='text'] {
+  float: left;
+  width: calc(50% - 5px);
+}
+/* line 354, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .filter_form_field.select_and_search input[type='text'] {
+  float: right;
+}
+/* line 360, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .filter_form_field.filter_date_range .separator,
+form.filter_form .filter_form_field.filter_date_range input[type='text'] {
+  display: inline-block;
+  float: none;
+}
+/* line 366, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .filter_form_field.filter_date_range .seperator {
+  text-align: center;
+}
+/* line 370, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .filter_form_field.filter_date_range input[type='text'] {
+  background-position: 100% 3px;
+  background-repeat: no-repeat;
+  padding-right: 25px;
+  width: calc(50% - 9px);
+}
+/* line 378, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .filter_form_field + .filter_form_field {
+  border-top: 1px solid #dedede;
+}
+/* line 383, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .buttons {
+  border-top: 1px solid #cccccc;
+  text-align: center;
+  padding: 12px 15px;
+}
+/* line 388, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .buttons a.clear_filters_btn {
+  margin-left: 5px;
+}
+/* line 392, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_form.scss */
+form.filter_form .buttons input[type='submit'],
+form.filter_form .buttons a.clear_filters_btn {
+  padding: 5px 10px;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_grid.scss */
+table.index_grid td {
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0 20px 20px 0;
+}
+
+/* line 8, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_grid.scss */
+.columns {
+  clear: both;
+  margin-bottom: 10px;
+  padding: 0;
+}
+/* line 13, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_grid.scss */
+.columns img {
+  max-width: 100%;
+}
+/* line 17, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_grid.scss */
+.columns .column {
+  float: left;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 24, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_grid.scss */
+  .columns .column {
+    float: none;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.resource_selection_toggle_panel {
+  margin-bottom: 20px;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+.resource_selection_toggle_panel:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 6, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.resource_selection_toggle_panel .resource_selection_toggle_cell {
+  float: left;
+  margin: 3px 5px 0 0;
+}
+
+/* line 14, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_blog .resource_selection_toggle_cell {
+  margin-left: 15px;
+}
+/* line 18, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_blog .banner {
+  overflow: hidden;
+  position: relative;
+}
+/* line 23, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_blog .banner .resource_selection_cell {
+  left: 15px;
+  position: absolute;
+  top: 13px;
+}
+/* line 29, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_blog .banner h3 {
+  margin: 0;
+  padding-left: 60px;
+}
+/* line 35, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_blog .banner .content {
+  padding: 15px;
+}
+/* line 39, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_blog .banner .meta {
+  border-top: 1px solid #cccccc;
+  color: rgba(63, 63, 63, 0.5);
+  font-size: 14px;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+/* line 47, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_blog .banner + .banner {
+  margin-top: 20px;
+}
+
+/* line 55, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_grid .banner {
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
+}
+/* line 58, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_grid .banner:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/* line 62, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_indexes.scss */
+.index_as_grid .banner img {
+  border-radius: 4px;
+  display: block;
+}
+
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.ui-widget-overlay {
+  -webkit-animation: fade-in 250ms;
+          animation: fade-in 250ms;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1001;
+}
+
+/* line 15, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.ui-dialog {
+  -webkit-animation: scale-up 250ms 50ms forwards;
+          animation: scale-up 250ms 50ms forwards;
+  opacity: 0;
+  outline: 0;
+  overflow: hidden;
+  position: fixed;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  z-index: 1002;
+}
+/* line 28, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.ui-dialog .ui-dialog-titlebar span {
+  font-size: 18px;
+}
+/* line 33, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.ui-dialog ul {
+  list-style-type: none;
+}
+/* line 37, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.ui-dialog li {
+  margin: 10px 0;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+.ui-dialog li:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 42, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.ui-dialog label {
+  float: left;
+  width: 20%;
+}
+/* line 47, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.ui-dialog form,
+.ui-dialog .ui-dialog-buttonpane {
+  padding: 8px 15px 12px;
+  text-align: center;
+}
+/* line 58, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.ui-dialog .ui-dialog-buttonpane button + button {
+  margin-left: 5px;
+}
+
+/* line 64, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_modal.scss */
+.active_admin_dialog.ui-dialog .ui-dialog-titlebar-close {
+  display: none;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.paginated_collection {
+  margin-bottom: 20px;
+}
+
+/* line 5, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+#index_footer {
+  margin-top: 20px;
+}
+
+/* line 9, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.pagination,
+.pagination_information,
+.pagination_per_page,
+.download_links {
+  font-size: 12px;
+}
+
+/* line 17, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.pagination_information {
+  color: rgba(63, 63, 63, 0.75);
+}
+/* line 20, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.pagination_information b {
+  color: #3f3f3f;
+}
+
+/* line 26, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.pagination_per_page select {
+  padding: 1px 5px;
+}
+
+/* line 31, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.pagination {
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 37, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.pagination a,
+.pagination .current {
+  background-color: #f2f2f2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05), inset 0 1px 0 0 #ffffff;
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05), inset 0 1px 0 0 #ffffff;
+  display: inline-block;
+  padding: 6px 10px 5px;
+  text-decoration: none;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
+  margin: 0 1px 4px;
+}
+/* line 51, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.pagination a:not(.current):hover {
+  background: #ffffff;
+}
+/* line 55, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+.pagination .current {
+  background: #4d5256;
+  border-color: #454a4d;
+  -webkit-box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 65, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+  .pagination {
+    margin-bottom: 10px;
+  }
+
+  /* line 69, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+  .pagination_information,
+  .pagination_per_page,
+  .download_links {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 77, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+  #index_footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  /* line 84, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_pagination.scss */
+  .pagination {
+    display: block;
+    margin-top: 10px;
+    -webkit-box-ordinal-group: 11;
+        -ms-flex-order: 10;
+            order: 10;
+    width: 100%;
+  }
+}
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_panel.scss */
+.panel,
+.sidebar_section {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+/* line 7, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_panel.scss */
+.panel h3,
+.sidebar_section h3 {
+  margin: 0;
+}
+/* line 12, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_panel.scss */
+.panel hr,
+.sidebar_section hr {
+  border: none;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 17, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_panel.scss */
+.panel > div,
+.sidebar_section > div {
+  padding: 15px;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_status-tag.scss */
+.status_tag {
+  background: #cccccc;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 3px 5px 2px 5px;
+  text-transform: uppercase;
+}
+/* line 11, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_status-tag.scss */
+.status_tag.ok, .status_tag.published, .status_tag.complete, .status_tag.completed, .status_tag.green {
+  background: #04844b;
+}
+/* line 19, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_status-tag.scss */
+.status_tag.error, .status_tag.errored, .status_tag.red {
+  background: #a61a14;
+}
+/* line 25, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_status-tag.scss */
+.status_tag.warn, .status_tag.warning, .status_tag.orange {
+  background: #ffb75d;
+}
+/* line 31, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_status-tag.scss */
+.status_tag.yes {
+  background-color: #005fb2;
+}
+/* line 35, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_status-tag.scss */
+.status_tag.no {
+  background-color: #3f3f3f;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table {
+  border-collapse: separate;
+  width: 100%;
+}
+
+/* line 6, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table {
+  background-color: #ffffff;
+}
+/* line 10, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table .centralized {
+  text-align: center;
+}
+/* line 15, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table tr:last-child td:first-child {
+  border-bottom-left-radius: 4px;
+}
+/* line 19, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table tr:last-child td:last-child {
+  border-bottom-right-radius: 4px;
+}
+/* line 24, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table th,
+table.index_table td {
+  padding: 12px 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+/* line 30, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table th:last-child,
+table.index_table td:last-child {
+  border-right: none;
+}
+/* line 35, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th {
+  border: 1px solid #cccccc;
+  border-width: 0 1px 1px 0;
+  vertical-align: bottom;
+}
+/* line 41, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th:first-child {
+  border-top-left-radius: 4px;
+}
+/* line 45, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th:last-child {
+  border-top-right-radius: 4px;
+}
+/* line 49, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th:only-child {
+  border-radius: 4px 4px 0 0;
+}
+/* line 53, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th.sortable a {
+  background: url(/assets/active_admin/orderable-29374dbb55b0012d78a37c614d573bb3474f0779849b478a147d0f1845ca6617.png) 0 6px no-repeat;
+  display: block;
+  padding-left: 12px;
+}
+/* line 59, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th.sorted-asc, table.index_table thead th.sorted-desc {
+  background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#d9d9d9));
+  background-image: linear-gradient(to bottom, #e6e6e6, #d9d9d9);
+}
+/* line 65, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th.sorted-asc a {
+  background-position: 0 -25px;
+}
+/* line 69, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th.sorted-desc a {
+  background-position: 0 -55px;
+}
+/* line 73, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table thead th a {
+  text-decoration: none;
+}
+/* line 80, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table tbody tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+/* line 84, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table tbody tr:hover td {
+  background-color: #f2f2f2;
+}
+/* line 88, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table tbody tr:last-child td {
+  border-bottom: none;
+}
+/* line 92, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table tbody tr.selected td {
+  background-color: #fff8ef;
+}
+/* line 97, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table tbody td {
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  border-width: 0 1px 1px 0;
+  -webkit-transition: background 250ms;
+  transition: background 250ms;
+}
+/* line 105, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table .view_link,
+table.index_table .edit_link,
+table.index_table .delete_link {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 16px;
+  margin: 0 5px;
+  opacity: 0.75;
+  position: relative;
+  text-indent: -99999px;
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms;
+  width: 16px;
+}
+/* line 119, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table .view_link:hover,
+table.index_table .edit_link:hover,
+table.index_table .delete_link:hover {
+  opacity: 1;
+}
+/* line 124, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table .delete_link {
+  background-image: url(/assets/formadmin/trash-58e1917f7313d871f7f3bca5878889ad0d99986daf2dda9f2384f82776a0d719.svg);
+}
+/* line 128, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table .edit_link {
+  background-image: url(/assets/formadmin/edit-7b6007fc0b1d2a1b527671427dbc40d69a708f304007945874f505fb87074197.svg);
+}
+/* line 132, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+table.index_table .view_link {
+  background-image: url(/assets/formadmin/view-2891a7851b94c538fbafb46597b49e3a7d01e44d16e88e6b8faa535ab8056d85.svg);
+}
+@media only screen and (max-width: 768px) {
+  /* line 6, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  table.index_table {
+    overflow: hidden;
+  }
+  /* line 140, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  table.index_table,
+  table.index_table tr,
+  table.index_table th,
+  table.index_table td,
+  table.index_table thead,
+  table.index_table tbody {
+    display: block;
+    text-align: left !important;
+    width: 100% !important;
+  }
+  /* line 151, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  table.index_table tr {
+    padding: 20px;
+  }
+  /* line 155, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  table.index_table th,
+  table.index_table td {
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    padding: 5px 0 !important;
+  }
+  /* line 162, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  table.index_table th:empty,
+  table.index_table td:empty {
+    display: none;
+  }
+  /* line 167, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  table.index_table tbody tr {
+    border-top: 1px solid #cccccc;
+  }
+}
+
+/* line 174, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+.attributes_table,
+.panel_contents {
+  overflow: hidden;
+}
+/* line 178, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+.attributes_table table,
+.panel_contents table {
+  width: 100%;
+}
+/* line 182, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+.attributes_table th,
+.attributes_table td,
+.panel_contents th,
+.panel_contents td {
+  padding: 8px 0;
+  text-align: left;
+}
+/* line 188, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+.attributes_table th,
+.panel_contents th {
+  width: 200px;
+}
+/* line 193, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+.attributes_table tr + tr th,
+.attributes_table tr + tr td,
+.panel_contents tr + tr th,
+.panel_contents tr + tr td {
+  border-top: 1px solid #e6e6e6;
+}
+/* line 199, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+.attributes_table .empty,
+.panel_contents .empty {
+  font-size: 12px;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 480px) {
+  /* line 207, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  .attributes_table th,
+  .attributes_table td,
+  .panel_contents th,
+  .panel_contents td {
+    display: block;
+    padding: 0 0 5px;
+    width: 100%;
+  }
+  /* line 215, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  .attributes_table tr + tr th,
+  .panel_contents tr + tr th {
+    padding: 20px 0 5px;
+  }
+  /* line 219, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_table.scss */
+  .attributes_table tr + tr td,
+  .panel_contents tr + tr td {
+    border-top: 0;
+  }
+}
+
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tabs.scss */
+.tabs .nav-tabs {
+  border: 1px solid #cccccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 6px 15px 0;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+.tabs .nav-tabs:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 11, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tabs.scss */
+.tabs .nav-tabs li {
+  float: left;
+  padding: 9px 16px;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
+}
+/* line 16, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tabs.scss */
+.tabs .nav-tabs li:not(:first-of-type):not(.ui-tabs-active) {
+  border-left: 1px solid rgba(204, 204, 204, 0.5);
+}
+/* line 20, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tabs.scss */
+.tabs .nav-tabs li.ui-tabs-active {
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  border-bottom-width: 0;
+  border-radius: 4px 4px 0 0;
+  font-weight: bold;
+  margin-bottom: -1px;
+  padding: 9px 15px;
+}
+/* line 30, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tabs.scss */
+.tabs .nav-tabs li a {
+  outline: none;
+  text-decoration: none;
+}
+/* line 37, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tabs.scss */
+.tabs .ui-tabs-panel > fieldset.inputs {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools {
+  margin-bottom: 20px;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+.table_tools:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 5, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .dropdown_menu {
+  margin-right: 20px;
+  float: left;
+}
+/* line 11, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scopes {
+  float: left !important;
+  width: auto !important;
+}
+/* line 16, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scopes {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/core/_mixins.scss */
+.table_tools .scopes:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/* line 30, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scope {
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 35, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scope.selected a {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#ffffff));
+  background-image: linear-gradient(to bottom, #f2f2f2, #ffffff);
+  color: #000000;
+}
+/* line 40, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scope.selected a .count {
+  opacity: 0.75;
+}
+/* line 45, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scope a {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  -webkit-box-shadow: inset 0 1px 0 0 #ffffff;
+          box-shadow: inset 0 1px 0 0 #ffffff;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+/* line 54, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scope:not(.selected) a:hover {
+  background: #ffffff;
+}
+/* line 58, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scope .count {
+  font-weight: normal;
+  letter-spacing: -1px;
+  opacity: 0.5;
+}
+/* line 64, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+.table_tools .scope + .scope {
+  border-left: 1px solid #cccccc;
+}
+@media only screen and (max-width: 480px) {
+  /* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+  .table_tools {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 74, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+  .table_tools .batch_actions_selector,
+  .table_tools .scopes {
+    float: none;
+    margin: 0 0 20px;
+  }
+  /* line 80, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+  .table_tools .scopes,
+  .table_tools .scope {
+    float: none !important;
+    width: 100% !important;
+  }
+  /* line 86, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_tools.scss */
+  .table_tools .scope + .scope {
+    border-top: 1px solid #cccccc;
+    border-left: 0;
+  }
+}
+
+/* line 1, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_unsupported_browser.scss */
+.unsupported_browser {
+  padding: 10px 30px;
+  background-color: #fff8ef;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff8ef), to(#fff1df));
+  background-image: linear-gradient(to bottom, #fff8ef, #fff1df);
+  border-bottom: 3px solid #ffb75d;
+  margin: 50px 0 -50px;
+  text-align: center;
+}
+/* line 9, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/components/_unsupported_browser.scss */
+.unsupported_browser h1 {
+  font-weight: bold;
+}
+
+/* line 2, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+body.logged_out #active_admin_content {
+  padding: 0 0 20px;
+  overflow: hidden;
+}
+/* line 8, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+body.logged_out #content_wrapper {
+  margin: 70px auto;
+  padding: 0;
+  max-width: 500px;
+  width: 100%;
+}
+/* line 15, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+body.logged_out h2 {
+  margin: 0;
+  padding: 15px;
+}
+/* line 21, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+body.logged_out fieldset {
+  border: 0;
+  margin: 0;
+}
+/* line 26, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+body.logged_out .inputs {
+  margin-bottom: 20px;
+}
+/* line 30, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+body.logged_out .actions {
+  float: left;
+  margin-left: 20px;
+}
+/* line 35, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+body.logged_out #login a {
+  font-size: 80%;
+  float: right;
+  margin-right: 20px;
+}
+/* line 41, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+body.logged_out .flash {
+  border-radius: 4px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 49, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+  body.logged_out #wrapper {
+    padding: 15px;
+  }
+  /* line 53, /Users/ADSI05/.rvm/gems/ruby-2.5.0@donation_calculator/gems/formadmin-0.2.1/app/assets/stylesheets/formadmin/pages/_logged-out.scss */
+  body.logged_out #content_wrapper {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+}

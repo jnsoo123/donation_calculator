@@ -16,7 +16,8 @@ var PlayerList = createReactClass({
               <th></th>
               <th>Rank</th>
               <th>IGN</th>
-              <th>Class</th>
+              <th>Level</th>
+              <th>CP</th>
               <th>Weekly Adena</th>
               <th>Weekly POB</th>
               <th>Weekly RSS</th>
@@ -37,6 +38,11 @@ var PlayerList = createReactClass({
       {this.props.players.map(function(player, i){
         return (
           <PlayerAddPointModal authenticity_token={authenticityToken} player={player} key={i} />
+        )
+      })} 
+      {this.props.players.map(function(player, i){
+        return (
+          <PlayerUpdateLevel authenticity_token={authenticityToken} player={player} key={i} />
         )
       })} 
     </div>)

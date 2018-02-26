@@ -3,8 +3,9 @@
 @import 'bootswatch/lumen/bootswatch';
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
+@import 'components/*';
 
-.container.container-main {
+.container-fluid.container-main {
   margin-top: 70px;
 }
 

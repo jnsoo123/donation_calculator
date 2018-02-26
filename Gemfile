@@ -26,6 +26,7 @@ gem 'pundit'
 gem 'activeadmin'
 gem 'formadmin'
 gem 'activeadmin_addons'
+gem 'differ'
 
 group :development, :test do
   gem 'capybara', '~> 2.13'

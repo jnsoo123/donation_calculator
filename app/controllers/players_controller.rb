@@ -7,7 +7,7 @@ class PlayersController < ApplicationController
       .includes(:contributions)
       .sort_by(&:weekly_points)
       .reverse
-      .as_json(methods: [:weekly_accumulation, :weekly_points, :humanize_job])
+      .as_json(methods: [:weekly_accumulation, :weekly_points, :cp_diff, :level_diff])
   end
 
   def edit
@@ -20,7 +20,7 @@ class PlayersController < ApplicationController
 
   def update
     if @player.update_attributes(player_params)
-      redirect_to player_path(@player), notice: 'Player Updated'
+      redirect_back fallback_location: root_path, notice: 'Player Updated'
     end
   end
 
@@ -42,6 +42,6 @@ class PlayersController < ApplicationController
   end
 
   def player_params
-    params.require(:player).permit(:in_game_name, :name, :job)
+    params.require(:player).permit(:in_game_name, :name, :job, :current_level, :current_cp)
   end
 end

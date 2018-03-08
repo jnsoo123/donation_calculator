@@ -16,6 +16,8 @@ class Contribution < ApplicationRecord
   enum contribution_type: ContributionTypes::ALL_ENUM
   belongs_to :player
 
+  validates :value, presence: true, numericality: { only_integer: true }
+
   def points
     (value / CONTRIBUTION_DIVISION_MAPPING[contribution_type]) * CONTRIBUTION_POINTS_MAPPING[contribution_type]
   end

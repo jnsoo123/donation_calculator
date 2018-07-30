@@ -1,24 +1,15 @@
-# README
+# Simple Donation Calculator for the Game Lineage 2 Revolution
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Made a calculator that is easy to access by everyone in the guild to check their donation status. (Not being used anymore so i made it public)
 
-Things you may want to cover:
+Access it [here](https://donationcalculator.herokuapp.com)
 
-* Ruby version
+Username: `admin`
+Password: `password`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Tools used:
+- Programming Language: `Ruby 2.5.0`
+- Framework: `Ruby on Rails 5.1.4`
+- Frontend Framework: `ReactJS`, `Bootstrap 4`
+- Database used: `PostgreSQL`
+- Deployed in `Heroku`

@@ -2,7 +2,7 @@ class ContributionsController < ApplicationController
   before_action :set_contribution, only: :destroy
 
   def index
-    @contributions = Contribution.all.reverse
+    @contributions = Contribution.page(params[:page]).per(20)
   end
 
   def create

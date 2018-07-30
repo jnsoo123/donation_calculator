@@ -1,5 +1,7 @@
 h1 Contribution History
 
+= page_entries_info @contributions
+
 .table-responsive
   table.table.table-hover
     thead
@@ -17,3 +19,4 @@ h1 Contribution History
           td= contrib.value
           td= contrib.created_at
 
+= paginate @contributions
